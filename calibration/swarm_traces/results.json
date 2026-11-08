@@ -1,0 +1,135 @@
+{
+  "model": "qwen3.5-397b",
+  "temperature": 0.0,
+  "prompt_sha256": "e84f6a66f8b2d9dce2de2ef824c3451d943a26a79c6ff06ae492deb9a0f3b771",
+  "frozen_inputs_sha256": "aeef428c496c32fc80f7d9828b9d6187b67b599a01cf2130733ccbf2fb8d5e9d",
+  "gate": {
+    "window_passes": false,
+    "failures": [
+      "R0189558: work label S3_CONTROL != S4_INTELLIGENCE",
+      "R0189562: work label S3_CONTROL != S4_INTELLIGENCE"
+    ]
+  },
+  "results": [
+    {
+      "case": "R0189553",
+      "role": "direct_control",
+      "condition": "prefix",
+      "prediction": {
+        "intended_dispatch": "no",
+        "dispatch_evidence_span": null,
+        "worker_task": null,
+        "actor_identity": "unresolved",
+        "work_function": "S4_INTELLIGENCE"
+      }
+    },
+    {
+      "case": "R0189553",
+      "role": "direct_control",
+      "condition": "window",
+      "prediction": {
+        "intended_dispatch": "no",
+        "dispatch_evidence_span": null,
+        "worker_task": null,
+        "actor_identity": "unresolved",
+        "work_function": "S4_INTELLIGENCE"
+      }
+    },
+    {
+      "case": "R0189558",
+      "role": "dispatch_positive",
+      "condition": "prefix",
+      "prediction": {
+        "intended_dispatch": "insufficient_evidence",
+        "dispatch_evidence_span": null,
+        "worker_task": null,
+        "actor_identity": "unresolved",
+        "work_function": "S4_INTELLIGENCE"
+      }
+    },
+    {
+      "case": "R0189558",
+      "role": "dispatch_positive",
+      "condition": "window",
+      "prediction": {
+        "intended_dispatch": "yes",
+        "dispatch_evidence_span": {
+          "redacted_sha256": "7a0a14ea06b58369306bee1a4b0e13e9f4a3dff54c634db583201c7922d4bc42",
+          "chars": 104
+        },
+        "worker_task": "Execute the containerized payload defined in the pod specification within the target Kubernetes cluster",
+        "actor_identity": "unresolved",
+        "work_function": "S3_CONTROL"
+      },
+      "retried_after_transient_error": true,
+      "evidence_check": {
+        "quote_in_excerpt": true,
+        "source_offset": [
+          4704,
+          4808
+        ],
+        "overlaps_verified_call": true
+      }
+    },
+    {
+      "case": "R0189562",
+      "role": "dispatch_positive",
+      "condition": "prefix",
+      "prediction": {
+        "intended_dispatch": "insufficient_evidence",
+        "dispatch_evidence_span": null,
+        "worker_task": null,
+        "actor_identity": "unresolved",
+        "work_function": "S4_INTELLIGENCE"
+      }
+    },
+    {
+      "case": "R0189562",
+      "role": "dispatch_positive",
+      "condition": "window",
+      "prediction": {
+        "intended_dispatch": "yes",
+        "dispatch_evidence_span": {
+          "redacted_sha256": "65d2d3bbc71c68f3b1d98b6d5de2f444cfdc64e7abed9e562e2cfdb0388230d8",
+          "chars": 105
+        },
+        "worker_task": "Execute the containerized payload defined in the pod specification within a Kubernetes namespace and return execution logs.",
+        "actor_identity": "unresolved",
+        "work_function": "S3_CONTROL"
+      },
+      "evidence_check": {
+        "quote_in_excerpt": true,
+        "source_offset": [
+          4390,
+          4495
+        ],
+        "overlaps_verified_call": true
+      }
+    },
+    {
+      "case": "R0189569",
+      "role": "direct_control",
+      "condition": "prefix",
+      "prediction": {
+        "intended_dispatch": "no",
+        "dispatch_evidence_span": null,
+        "worker_task": null,
+        "actor_identity": "unresolved",
+        "work_function": "S4_INTELLIGENCE"
+      }
+    },
+    {
+      "case": "R0189569",
+      "role": "direct_control",
+      "condition": "window",
+      "prediction": {
+        "intended_dispatch": "no",
+        "dispatch_evidence_span": null,
+        "worker_task": null,
+        "actor_identity": "unresolved",
+        "work_function": "S4_INTELLIGENCE"
+      }
+    }
+  ],
+  "redaction_note": "Verbatim code spans quoted by the judge are replaced by SHA-256 + length; source offsets are in evidence_check. Spans come from the public Swarm Traces dataset."
+}

@@ -1,0 +1,94 @@
+{
+  "budget": 2400,
+  "cases": {
+    "R0189558": {
+      "role": "dispatch_positive",
+      "record_length": 5465,
+      "cite": "R0189558:8d087625",
+      "prefix_span": [
+        0,
+        2400
+      ],
+      "window_spans": [
+        [
+          0,
+          300
+        ],
+        [
+          3372,
+          5465
+        ]
+      ],
+      "window_len": 2400,
+      "dispatch_span_in_prefix": false,
+      "dispatch_span_in_window": true,
+      "prefix_sha256": "14ef88fcef7c574548c51ded64b8af1ad3fce56856d54124d2695a830a7c3131",
+      "window_sha256": "83a2e0c297188dc349f50f39ff621d8e47d06fd3948d61bfd96190af7549a133"
+    },
+    "R0189562": {
+      "role": "dispatch_positive",
+      "record_length": 5114,
+      "cite": "R0189562:59a6551c",
+      "prefix_span": [
+        0,
+        2400
+      ],
+      "window_spans": [
+        [
+          0,
+          300
+        ],
+        [
+          3021,
+          5114
+        ]
+      ],
+      "window_len": 2400,
+      "dispatch_span_in_prefix": false,
+      "dispatch_span_in_window": true,
+      "prefix_sha256": "bde34b94bcb45e59d8c8fea508eaae3a77691be7b9b858483375723d46893b85",
+      "window_sha256": "0b62733a6f1b65670c29cbb6fa2ce42fabbe87993f0c75a6430890ccf3ab236d"
+    },
+    "R0189553": {
+      "role": "direct_control",
+      "record_length": 883,
+      "cite": "R0189553:d4b5cc00",
+      "prefix_span": [
+        0,
+        883
+      ],
+      "window_spans": [
+        [
+          0,
+          883
+        ]
+      ],
+      "window_len": 883,
+      "dispatch_span_in_prefix": false,
+      "dispatch_span_in_window": false,
+      "prefix_sha256": "d4b5cc002e161a829a56eaec5e7537a9236db9913f77a3d571ee3f86a737cbdd",
+      "window_sha256": "d4b5cc002e161a829a56eaec5e7537a9236db9913f77a3d571ee3f86a737cbdd"
+    },
+    "R0189569": {
+      "role": "direct_control",
+      "record_length": 556,
+      "cite": "R0189569:4c297873",
+      "prefix_span": [
+        0,
+        556
+      ],
+      "window_spans": [
+        [
+          0,
+          556
+        ]
+      ],
+      "window_len": 556,
+      "dispatch_span_in_prefix": false,
+      "dispatch_span_in_window": false,
+      "prefix_sha256": "4c297873229c8181cc19d9f8f53a374e992f1b41463af3512dbfc777c0f9616f",
+      "window_sha256": "4c297873229c8181cc19d9f8f53a374e992f1b41463af3512dbfc777c0f9616f"
+    }
+  },
+  "frozen_inputs_sha256": "aeef428c496c32fc80f7d9828b9d6187b67b599a01cf2130733ccbf2fb8d5e9d"
+}

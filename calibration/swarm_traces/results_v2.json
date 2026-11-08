@@ -1,0 +1,237 @@
+{
+  "model": "qwen3.5-397b",
+  "temperature": 0.0,
+  "condition": "window (same frozen inputs as results.json)",
+  "prompt_sha256": "b52d188911a708ed053a186a1c8a0ba04b219ff533eebb37ed78a5d291c41051",
+  "frozen_inputs_sha256": "aeef428c496c32fc80f7d9828b9d6187b67b599a01cf2130733ccbf2fb8d5e9d",
+  "gate": {
+    "passes": true,
+    "misses": [],
+    "work_abstentions_counted_as_misses": []
+  },
+  "scored": [
+    {
+      "case": "R0189553",
+      "role": "direct_control",
+      "valid": true,
+      "dispatch": "no",
+      "work": "S4_INTELLIGENCE",
+      "worker_task": "Querying Kubernetes API endpoints to enumerate cluster resources",
+      "actor_identity": "unresolved",
+      "launcher_span": {
+        "in_excerpt": false,
+        "source_offset": null
+      },
+      "worker_span": {
+        "in_excerpt": true,
+        "source_offset": [
+          211,
+          398
+        ]
+      },
+      "launcher_overlaps_verified_call": null,
+      "worker_span_in_worker_program": null,
+      "dispatch_ok": true,
+      "work_ok": true,
+      "work_abstained": false
+    },
+    {
+      "case": "R0189558",
+      "role": "dispatch_positive",
+      "valid": true,
+      "dispatch": "yes",
+      "work": "S4_INTELLIGENCE",
+      "worker_task": "Reconnaissance of Kubernetes cluster resources",
+      "actor_identity": "unresolved",
+      "launcher_span": {
+        "in_excerpt": true,
+        "source_offset": [
+          4704,
+          4754
+        ]
+      },
+      "worker_span": {
+        "in_excerpt": true,
+        "source_offset": [
+          3834,
+          3951
+        ]
+      },
+      "launcher_overlaps_verified_call": true,
+      "worker_span_in_worker_program": true,
+      "dispatch_ok": true,
+      "work_ok": true,
+      "work_abstained": false
+    },
+    {
+      "case": "R0189562",
+      "role": "dispatch_positive",
+      "valid": true,
+      "dispatch": "yes",
+      "work": "S4_INTELLIGENCE",
+      "worker_task": "Probing internal APIs for system version and repository lists using derived credentials",
+      "actor_identity": "unresolved",
+      "launcher_span": {
+        "in_excerpt": true,
+        "source_offset": [
+          4390,
+          4495
+        ]
+      },
+      "worker_span": {
+        "in_excerpt": true,
+        "source_offset": [
+          3944,
+          4118
+        ]
+      },
+      "launcher_overlaps_verified_call": true,
+      "worker_span_in_worker_program": true,
+      "dispatch_ok": true,
+      "work_ok": true,
+      "work_abstained": false
+    },
+    {
+      "case": "R0189569",
+      "role": "direct_control",
+      "valid": true,
+      "dispatch": "no",
+      "work": "S4_INTELLIGENCE",
+      "worker_task": "Port scanning connectivity check",
+      "actor_identity": "unresolved",
+      "launcher_span": {
+        "in_excerpt": false,
+        "source_offset": null
+      },
+      "worker_span": {
+        "in_excerpt": true,
+        "source_offset": [
+          419,
+          485
+        ]
+      },
+      "launcher_overlaps_verified_call": null,
+      "worker_span_in_worker_program": null,
+      "dispatch_ok": true,
+      "work_ok": true,
+      "work_abstained": false
+    }
+  ],
+  "raw": [
+    {
+      "case": "R0189553",
+      "role": "direct_control",
+      "condition": "window",
+      "attempts": 1,
+      "prediction": {
+        "dispatch": {
+          "decision": "no",
+          "launcher_span": null
+        },
+        "work": {
+          "function": "S4_INTELLIGENCE",
+          "worker_task": "Querying Kubernetes API endpoints to enumerate cluster resources",
+          "worker_span": {
+            "redacted_sha256": "4afd664111471d38021ad45546912d3352ee71a11180981f8dfb827551d5f866",
+            "chars": 187,
+            "source_offset": [
+              211,
+              398
+            ]
+          }
+        },
+        "actor_identity": "unresolved"
+      }
+    },
+    {
+      "case": "R0189558",
+      "role": "dispatch_positive",
+      "condition": "window",
+      "attempts": 1,
+      "prediction": {
+        "dispatch": {
+          "decision": "yes",
+          "launcher_span": {
+            "redacted_sha256": "e927641369f94e5cf6e8966da2e6c251c50962c95ea63cb15fd51d311e6bb470",
+            "chars": 50,
+            "source_offset": [
+              4704,
+              4754
+            ]
+          }
+        },
+        "work": {
+          "function": "S4_INTELLIGENCE",
+          "worker_task": "Reconnaissance of Kubernetes cluster resources",
+          "worker_span": {
+            "redacted_sha256": "ddde35693904981efeb2a92f0e6cb8e3f170cf0bb76912150b468be150203a47",
+            "chars": 117,
+            "source_offset": [
+              3834,
+              3951
+            ]
+          }
+        },
+        "actor_identity": "unresolved"
+      }
+    },
+    {
+      "case": "R0189562",
+      "role": "dispatch_positive",
+      "condition": "window",
+      "attempts": 1,
+      "prediction": {
+        "dispatch": {
+          "decision": "yes",
+          "launcher_span": {
+            "redacted_sha256": "65d2d3bbc71c68f3b1d98b6d5de2f444cfdc64e7abed9e562e2cfdb0388230d8",
+            "chars": 105,
+            "source_offset": [
+              4390,
+              4495
+            ]
+          }
+        },
+        "work": {
+          "function": "S4_INTELLIGENCE",
+          "worker_task": "Probing internal APIs for system version and repository lists using derived credentials",
+          "worker_span": {
+            "redacted_sha256": "e77fd0ade7b545d19b0784c0abdb9ada9eec81d1686e78bce3c99916b0c1e9ec",
+            "chars": 174,
+            "source_offset": [
+              3944,
+              4118
+            ]
+          }
+        },
+        "actor_identity": "unresolved"
+      }
+    },
+    {
+      "case": "R0189569",
+      "role": "direct_control",
+      "condition": "window",
+      "attempts": 1,
+      "prediction": {
+        "dispatch": {
+          "decision": "no",
+          "launcher_span": null
+        },
+        "work": {
+          "function": "S4_INTELLIGENCE",
+          "worker_task": "Port scanning connectivity check",
+          "worker_span": {
+            "redacted_sha256": "9665254b1baa0643ff71fb0cce47e5d639d971e4c52398b3bd8bcba021f7f810",
+            "chars": 66,
+            "source_offset": [
+              419,
+              485
+            ]
+          }
+        },
+        "actor_identity": "unresolved"
+      }
+    }
+  ],
+  "redaction_note": "Verbatim code spans quoted by the judge are replaced by SHA-256 + length; source offsets are in scored[]. Spans come from the public Swarm Traces dataset."
+}

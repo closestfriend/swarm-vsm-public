@@ -1,0 +1,14 @@
+__pycache__/
+*.py[oc]
+.venv
+.env
+.env.*
+.DS_Store
+redacted*.jsonl*
+records.jsonl*
+pilot_*/
+calibration/swarm_traces/frozen_inputs.jsonl
+video/recordings/
+video/film/assets/narration/
+video/film/renders/
+node_modules/

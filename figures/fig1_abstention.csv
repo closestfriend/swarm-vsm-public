@@ -1,0 +1,6 @@
+group,records,abstained,abstained_pct
+Wiki agent text (all),6051,507,8.4
+Swarm Traces: payload,2881,1186,41.2
+Swarm Traces: response,728,522,71.7
+Swarm Traces: recovered text,2391,1762,73.7
+Swarm Traces (all),6000,3470,57.8

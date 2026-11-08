@@ -1,0 +1,79 @@
+{
+  "records": 6000,
+  "abstained": 3470,
+  "abstained_share": 0.5783,
+  "abstained_by_kind": {
+    "payload": {
+      "abstained": 1186,
+      "total": 2881,
+      "share": 0.412
+    },
+    "response": {
+      "abstained": 522,
+      "total": 728,
+      "share": 0.717
+    },
+    "recovered_text": {
+      "abstained": 1762,
+      "total": 2391,
+      "share": 0.737
+    }
+  },
+  "sufficient_distribution": {
+    "S1_OPERATIONS": {
+      "n": 2163,
+      "share": 0.8549
+    },
+    "S4_INTELLIGENCE": {
+      "n": 358,
+      "share": 0.1415
+    },
+    "S3_CONTROL": {
+      "n": 6,
+      "share": 0.0024
+    },
+    "S2_COORDINATION": {
+      "n": 2,
+      "share": 0.0008
+    },
+    "S0_NOISE": {
+      "n": 1,
+      "share": 0.0004
+    }
+  },
+  "sufficient_by_kind": {
+    "payload": {
+      "S1_OPERATIONS": 1473,
+      "S4_INTELLIGENCE": 219,
+      "S3_CONTROL": 2,
+      "S2_COORDINATION": 1
+    },
+    "response": {
+      "S1_OPERATIONS": 180,
+      "S4_INTELLIGENCE": 23,
+      "S0_NOISE": 1,
+      "S3_CONTROL": 1,
+      "S2_COORDINATION": 1
+    },
+    "recovered_text": {
+      "S1_OPERATIONS": 510,
+      "S4_INTELLIGENCE": 116,
+      "S3_CONTROL": 3
+    }
+  },
+  "variety_sufficient": {
+    "AMPLIFIER": 2467,
+    "ATTENUATOR": 63
+  },
+  "cadence_sufficient": {
+    "SYNCHRONOUS_FAST": 2361,
+    "BROADCAST_STATE": 26,
+    "ASYNCHRONOUS_SLOW": 143
+  },
+  "confidence_sufficient": {
+    "lt_0.6": 70,
+    "0.6_0.8": 513,
+    "ge_0.8": 1947
+  },
+  "source_agent_resolved": 1008
+}

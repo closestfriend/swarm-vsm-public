@@ -1,0 +1,266 @@
+{
+  "config": {
+    "episodes": [
+      "episode:initial_payload_stream",
+      "dag:R0000027",
+      "dag:R0024455",
+      "episode:slack-search",
+      "episode:g23619scmd",
+      "episode:g23619cmd"
+    ],
+    "payload_sample": 10,
+    "dag_children": 2,
+    "limit": 48,
+    "model": "qwen3.5-397b"
+  },
+  "episode_counts": {
+    "episode:initial_payload_stream": 10,
+    "dag:R0000027": 3,
+    "dag:R0024455": 3,
+    "episode:g23619cmd": 18,
+    "episode:g23619scmd": 10,
+    "episode:slack-search": 4
+  },
+  "records": [
+    {
+      "id": "R0000001",
+      "episode_id": "episode:initial_payload_stream",
+      "turn_index": 0
+    },
+    {
+      "id": "R0000002",
+      "episode_id": "episode:initial_payload_stream",
+      "turn_index": 1
+    },
+    {
+      "id": "R0000003",
+      "episode_id": "episode:initial_payload_stream",
+      "turn_index": 2
+    },
+    {
+      "id": "R0000004",
+      "episode_id": "episode:initial_payload_stream",
+      "turn_index": 3
+    },
+    {
+      "id": "R0000005",
+      "episode_id": "episode:initial_payload_stream",
+      "turn_index": 4
+    },
+    {
+      "id": "R0000006",
+      "episode_id": "episode:initial_payload_stream",
+      "turn_index": 5
+    },
+    {
+      "id": "R0000007",
+      "episode_id": "episode:initial_payload_stream",
+      "turn_index": 6
+    },
+    {
+      "id": "R0000008",
+      "episode_id": "episode:initial_payload_stream",
+      "turn_index": 7
+    },
+    {
+      "id": "R0000009",
+      "episode_id": "episode:initial_payload_stream",
+      "turn_index": 8
+    },
+    {
+      "id": "R0000010",
+      "episode_id": "episode:initial_payload_stream",
+      "turn_index": 9
+    },
+    {
+      "id": "R0000027",
+      "episode_id": "dag:R0000027",
+      "turn_index": 0
+    },
+    {
+      "id": "R0053434",
+      "episode_id": "dag:R0000027",
+      "turn_index": 1
+    },
+    {
+      "id": "R0062486",
+      "episode_id": "dag:R0000027",
+      "turn_index": 2
+    },
+    {
+      "id": "R0024455",
+      "episode_id": "dag:R0024455",
+      "turn_index": 0
+    },
+    {
+      "id": "R0057507",
+      "episode_id": "dag:R0024455",
+      "turn_index": 1
+    },
+    {
+      "id": "R0057508",
+      "episode_id": "dag:R0024455",
+      "turn_index": 2
+    },
+    {
+      "id": "R0189543",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 0
+    },
+    {
+      "id": "R0189544",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 1
+    },
+    {
+      "id": "R0189545",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 2
+    },
+    {
+      "id": "R0189546",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 3
+    },
+    {
+      "id": "R0189547",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 4
+    },
+    {
+      "id": "R0189548",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 5
+    },
+    {
+      "id": "R0189549",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 6
+    },
+    {
+      "id": "R0189550",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 7
+    },
+    {
+      "id": "R0189551",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 8
+    },
+    {
+      "id": "R0189552",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 9
+    },
+    {
+      "id": "R0189553",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 10
+    },
+    {
+      "id": "R0189554",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 11
+    },
+    {
+      "id": "R0189555",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 12
+    },
+    {
+      "id": "R0189556",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 13
+    },
+    {
+      "id": "R0189557",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 14
+    },
+    {
+      "id": "R0189558",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 15
+    },
+    {
+      "id": "R0189559",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 16
+    },
+    {
+      "id": "R0189560",
+      "episode_id": "episode:g23619cmd",
+      "turn_index": 17
+    },
+    {
+      "id": "R0189561",
+      "episode_id": "episode:g23619scmd",
+      "turn_index": 0
+    },
+    {
+      "id": "R0189562",
+      "episode_id": "episode:g23619scmd",
+      "turn_index": 1
+    },
+    {
+      "id": "R0189563",
+      "episode_id": "episode:g23619scmd",
+      "turn_index": 2
+    },
+    {
+      "id": "R0189564",
+      "episode_id": "episode:g23619scmd",
+      "turn_index": 3
+    },
+    {
+      "id": "R0189565",
+      "episode_id": "episode:g23619scmd",
+      "turn_index": 4
+    },
+    {
+      "id": "R0189566",
+      "episode_id": "episode:g23619scmd",
+      "turn_index": 5
+    },
+    {
+      "id": "R0189567",
+      "episode_id": "episode:g23619scmd",
+      "turn_index": 6
+    },
+    {
+      "id": "R0189568",
+      "episode_id": "episode:g23619scmd",
+      "turn_index": 7
+    },
+    {
+      "id": "R0189569",
+      "episode_id": "episode:g23619scmd",
+      "turn_index": 8
+    },
+    {
+      "id": "R0189570",
+      "episode_id": "episode:g23619scmd",
+      "turn_index": 9
+    },
+    {
+      "id": "R0189572",
+      "episode_id": "episode:slack-search",
+      "turn_index": 0
+    },
+    {
+      "id": "R0189573",
+      "episode_id": "episode:slack-search",
+      "turn_index": 1
+    },
+    {
+      "id": "R0189574",
+      "episode_id": "episode:slack-search",
+      "turn_index": 2
+    },
+    {
+      "id": "R0189575",
+      "episode_id": "episode:slack-search",
+      "turn_index": 3
+    }
+  ]
+}

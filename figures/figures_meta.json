@@ -1,0 +1,14 @@
+{
+  "fig3_rows_dropped_under_30_transitions": {
+    "S3_CONTROL": 1,
+    "S3_STAR_AUDIT": 18,
+    "S5_POLICY": 2
+  },
+  "fig3_transitions_total": 4324,
+  "fig4_rows_dropped_under_30": {
+    "S3_CONTROL": 2,
+    "S5_POLICY": 1
+  },
+  "wiki_sufficient": 5544,
+  "swarm_sufficient": 2530
+}

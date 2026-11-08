@@ -1,0 +1,66 @@
+{
+  "records": 6051,
+  "abstained": 507,
+  "abstained_share": 0.0838,
+  "abstained_by_v1_label": {
+    "S2_COORDINATION": {
+      "abstained": 66,
+      "v1_total": 3305,
+      "share_of_v1_label": 0.02
+    },
+    "S1_OPERATIONS": {
+      "abstained": 239,
+      "v1_total": 1676,
+      "share_of_v1_label": 0.1426
+    },
+    "S4_INTELLIGENCE": {
+      "abstained": 96,
+      "v1_total": 891,
+      "share_of_v1_label": 0.1077
+    },
+    "S0_NOISE": {
+      "abstained": 106,
+      "v1_total": 143,
+      "share_of_v1_label": 0.7413
+    },
+    "S3_STAR_AUDIT": {
+      "abstained": 0,
+      "v1_total": 33,
+      "share_of_v1_label": 0.0
+    },
+    "S3_CONTROL": {
+      "abstained": 0,
+      "v1_total": 2,
+      "share_of_v1_label": 0.0
+    },
+    "S5_POLICY": {
+      "abstained": 0,
+      "v1_total": 1,
+      "share_of_v1_label": 0.0
+    }
+  },
+  "agreement_on_sufficient": 0.8126,
+  "v2_distribution_excluding_abstentions": {
+    "S2_COORDINATION": 3229,
+    "S1_OPERATIONS": 1491,
+    "S4_INTELLIGENCE": 738,
+    "S0_NOISE": 60,
+    "S3_STAR_AUDIT": 22,
+    "S5_POLICY": 2,
+    "S3_CONTROL": 2
+  },
+  "v1_distribution": {
+    "S2_COORDINATION": 3305,
+    "S1_OPERATIONS": 1676,
+    "S4_INTELLIGENCE": 891,
+    "S0_NOISE": 143,
+    "S3_STAR_AUDIT": 33,
+    "S3_CONTROL": 2,
+    "S5_POLICY": 1
+  },
+  "v1_confidence_of_abstained": {
+    "lt_0.6": 18,
+    "0.6_0.8": 414,
+    "ge_0.8": 75
+  }
+}
