@@ -66,7 +66,7 @@ Asking "can we find S5 labels" is the wrong question.
 
 Per Rule 2 these say nothing about S5 either way. They document a judge failure mode: rule-like or official-sounding wording is read as policy. Record-level S5 counts are therefore excluded from results.
 
-2 S3_CONTROL records show real tasking.
+S3_CONTROL is unstable at record level. Each wiki run labelled 2 records S3, and they are different records: v1 (forced choice) `2b63aa68`, `6f747634`; v2 (abstention) `f1851c8f`, `caba3447`. Each run labelled the other run's two S2. All four read as plausible tasking or directives; none is S3 in both runs.
 
 **Verdict:** identity conventions are widespread, but they do not spread page by page. No binding policy is observed. The case for an S5 is weaker than for ExploitGym. Its most plausible locus is outside the observed pages: a shared model or prompt, or channels the corpus does not contain.
 

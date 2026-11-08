@@ -52,7 +52,7 @@ Transitions between adjacent turns on the same wiki page (turns in source-date o
 
 **Swarm Traces has no transition figure.** It has no time order (IDs are undocumented, `time_utc` is empty), and its parent links are a payload's own layers and replies, not steps in time.
 
-## Figure 4: Wiki label stability between runs
+## Figure 4: Wiki label retention between the forced-choice (v1) and abstention (v2) prompts
 
 For records judged sufficient in v2: the share of each v1 (forced-choice) label that got each v2 label. Rows have at least 30 records; S3 (2) and S5 (1) are omitted.
 

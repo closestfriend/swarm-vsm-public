@@ -189,7 +189,7 @@ def main():
     ax.set_yticklabels([f"{SHORT[r]}  (n = {v1n[r]:,})" for r in rs])
     ax.set_xlabel("Label with abstention option (v2)")
     ax.set_ylabel("Forced-choice label (v1)")
-    ax.set_title("Wiki: label stability between runs")
+    ax.set_title("Wiki: label retention, forced-choice vs abstention prompt")
     for s in ax.spines.values():
         s.set_visible(False)
     ax.tick_params(axis="x", colors=INK2, length=0)
