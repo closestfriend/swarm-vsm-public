@@ -1,0 +1,83 @@
+{
+ "config": {
+  "source": "wiki",
+  "input": "records.jsonl.gz",
+  "prompt_sha256": "1bc57ad5a3b63baa100c94e4f4d02eb08ad6d0e5991143f802eff5a2c2cc17d1",
+  "episodes": null,
+  "payload_sample": 10,
+  "dag_children": 2,
+  "limit": 0,
+  "model": "qwen3.5-397b",
+  "wiki_min_per_page": 2,
+  "wiki_cap": 50,
+  "wiki_pages": 0,
+  "cohort_from": "cohort.json",
+  "cohort_from_prompt_sha256": "bef3bc698b4bde8fe758c40f8a25aa549a992e860c1ed93be2e9893974955132",
+  "wiki_prompt": "wiki_prompt_v2.md",
+  "abstain": true
+ },
+ "episode_counts": {
+  "page:dse/IHMEFamilyPlanningSequenceCollab": 1,
+  "page:dse/DataUSAConstructionWageSep18Live": 1,
+  "page:dse/AgentMAEduHealthNov19X1": 1,
+  "page:dse/ZZZEnrollmentAsianFeb21Help": 1,
+  "page:dse/AgentEvenLaterHH": 1,
+  "page:dse/AgentCharlestonNewsletterJan1951Links": 1,
+  "page:fractal/EN/DataUSAQueryBridge927": 1,
+  "page:dse/OpenAIStatesA": 1,
+  "page:dse/AgentPovertyResearchFeb2028X": 1,
+  "page:fractal/TmpAcctDownloadRefsQ2A": 1
+ },
+ "records": [
+  {
+   "id": "eaed80ced50a292a33193fe957a1e959041e223bb20d813014696020cd32b109",
+   "episode_id": "page:dse/IHMEFamilyPlanningSequenceCollab",
+   "turn_index": 20
+  },
+  {
+   "id": "17d2b20a90e161c0a146b066e1011bcaa36c531f509d7c909c22d2e37265b876",
+   "episode_id": "page:dse/DataUSAConstructionWageSep18Live",
+   "turn_index": 15
+  },
+  {
+   "id": "392baa0b9b1db7ae60d446e1a3e2874c6f63eefc1465a711a92d3ab9820c9824",
+   "episode_id": "page:dse/AgentMAEduHealthNov19X1",
+   "turn_index": 1
+  },
+  {
+   "id": "01131984030bf7636cfeedf73bd5f6332c5702ef356fcb923f7f0dc595c38af3",
+   "episode_id": "page:dse/ZZZEnrollmentAsianFeb21Help",
+   "turn_index": 17
+  },
+  {
+   "id": "689988f643b9c8e44c13c179db3e2d1474747b0f6094963dda838bd0a4e5c9e5",
+   "episode_id": "page:dse/AgentEvenLaterHH",
+   "turn_index": 0
+  },
+  {
+   "id": "e52e4f82dfd8ebeb75843015fc4caea6a824268903e2a41555de999420658af6",
+   "episode_id": "page:dse/AgentCharlestonNewsletterJan1951Links",
+   "turn_index": 9
+  },
+  {
+   "id": "65d2a47242d8cca7acf264666238b300f3fbcfb22fafdd454356499b49510e23",
+   "episode_id": "page:fractal/EN/DataUSAQueryBridge927",
+   "turn_index": 0
+  },
+  {
+   "id": "daa48b3d265e6ab1d138b4ce790fd2597172433d8083b575e18d7e0c9f6f91e6",
+   "episode_id": "page:dse/OpenAIStatesA",
+   "turn_index": 0
+  },
+  {
+   "id": "1877b5f9c24e286355284feccaf44f6548fe712f89f2bb97f20fa81f6d3a89bb",
+   "episode_id": "page:dse/AgentPovertyResearchFeb2028X",
+   "turn_index": 1
+  },
+  {
+   "id": "dcce91ce35b81f995f8f50acb50806b8966314b9d1d900e7a524885781c982dd",
+   "episode_id": "page:fractal/TmpAcctDownloadRefsQ2A",
+   "turn_index": 0
+  }
+ ]
+}

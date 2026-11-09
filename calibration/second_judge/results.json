@@ -1,0 +1,692 @@
+{
+ "set": "main",
+ "n": {
+  "wiki": 1000,
+  "swarm": 1000
+ },
+ "swarm_kind_counts": {
+  "payload": 480,
+  "recovered_text": 399,
+  "response": 121
+ },
+ "baseline_qwen_v2": {
+  "shares": {
+   "wiki": {
+    "n_all": 1000,
+    "n_sufficient": 904,
+    "all_records": {
+     "S2_COORDINATION": 0.546,
+     "S1_OPERATIONS": 0.234,
+     "S4_INTELLIGENCE": 0.112,
+     "INSUFF": 0.096,
+     "S0_NOISE": 0.01,
+     "S3_STAR_AUDIT": 0.001,
+     "S3_CONTROL": 0.001
+    },
+    "sufficient_only": {
+     "S2_COORDINATION": 0.604,
+     "S1_OPERATIONS": 0.2588,
+     "S4_INTELLIGENCE": 0.1239,
+     "S0_NOISE": 0.0111,
+     "S3_STAR_AUDIT": 0.0011,
+     "S3_CONTROL": 0.0011
+    }
+   },
+   "swarm": {
+    "n_all": 1000,
+    "n_sufficient": 412,
+    "all_records": {
+     "INSUFF": 0.588,
+     "S1_OPERATIONS": 0.356,
+     "S4_INTELLIGENCE": 0.052,
+     "S2_COORDINATION": 0.002,
+     "S3_CONTROL": 0.002
+    },
+    "sufficient_only": {
+     "S1_OPERATIONS": 0.8641,
+     "S4_INTELLIGENCE": 0.1262,
+     "S2_COORDINATION": 0.0049,
+     "S3_CONTROL": 0.0049
+    }
+   }
+  },
+  "criteria": {
+   "i": true,
+   "ii": true,
+   "gap_D": [
+    0.5991,
+    0.548,
+    0.6476
+   ]
+  }
+ },
+ "arms": {
+  "A": {
+   "description": "glm-5.2, v2 prompts",
+   "per_corpus": {
+    "wiki": {
+     "overall_with_insufficient_as_label": {
+      "n": 1000,
+      "raw": 0.746,
+      "kappa": 0.6145,
+      "pabak": 0.7037,
+      "categories": 7
+     },
+     "evidence_status": {
+      "n": 1000,
+      "raw": 0.883,
+      "kappa": 0.5265,
+      "pabak": 0.766,
+      "categories": 2
+     },
+     "primary_vsm_both_sufficient": {
+      "n": 800,
+      "raw": 0.8287,
+      "kappa": 0.6799,
+      "pabak": 0.7945,
+      "categories": 6
+     },
+     "per_label": {
+      "S0_NOISE": {
+       "qwen_v2": 5,
+       "arm": 7,
+       "both": 3,
+       "specific_agreement": 0.5
+      },
+      "S1_OPERATIONS": {
+       "qwen_v2": 180,
+       "arm": 159,
+       "both": 116,
+       "specific_agreement": 0.6844
+      },
+      "S2_COORDINATION": {
+       "qwen_v2": 520,
+       "arm": 494,
+       "both": 476,
+       "specific_agreement": 0.9389
+      },
+      "S3_CONTROL": {
+       "qwen_v2": 1,
+       "arm": 4,
+       "both": 1,
+       "specific_agreement": 0.4
+      },
+      "S3_STAR_AUDIT": {
+       "qwen_v2": 1,
+       "arm": 6,
+       "both": 1,
+       "specific_agreement": 0.2857
+      },
+      "S4_INTELLIGENCE": {
+       "qwen_v2": 93,
+       "arm": 130,
+       "both": 66,
+       "specific_agreement": 0.5919
+      }
+     },
+     "confusion_qwen_v2_to_arm": {
+      "S2_COORDINATION->S2_COORDINATION": 476,
+      "S1_OPERATIONS->S1_OPERATIONS": 116,
+      "S4_INTELLIGENCE->S4_INTELLIGENCE": 66,
+      "S1_OPERATIONS->S4_INTELLIGENCE": 50,
+      "S2_COORDINATION->S1_OPERATIONS": 24,
+      "S4_INTELLIGENCE->S1_OPERATIONS": 19,
+      "S1_OPERATIONS->S2_COORDINATION": 14,
+      "S2_COORDINATION->S4_INTELLIGENCE": 12,
+      "S4_INTELLIGENCE->S2_COORDINATION": 4,
+      "S0_NOISE->S0_NOISE": 3,
+      "S4_INTELLIGENCE->S3_STAR_AUDIT": 3,
+      "S2_COORDINATION->S3_CONTROL": 3,
+      "S2_COORDINATION->S0_NOISE": 3,
+      "S0_NOISE->S4_INTELLIGENCE": 2,
+      "S2_COORDINATION->S3_STAR_AUDIT": 2,
+      "S4_INTELLIGENCE->S0_NOISE": 1,
+      "S3_STAR_AUDIT->S3_STAR_AUDIT": 1,
+      "S3_CONTROL->S3_CONTROL": 1
+     },
+     "shares": {
+      "n_all": 1000,
+      "n_sufficient": 813,
+      "all_records": {
+       "S2_COORDINATION": 0.495,
+       "INSUFF": 0.187,
+       "S1_OPERATIONS": 0.161,
+       "S4_INTELLIGENCE": 0.134,
+       "S0_NOISE": 0.012,
+       "S3_STAR_AUDIT": 0.006,
+       "S3_CONTROL": 0.005
+      },
+      "sufficient_only": {
+       "S2_COORDINATION": 0.6089,
+       "S1_OPERATIONS": 0.198,
+       "S4_INTELLIGENCE": 0.1648,
+       "S0_NOISE": 0.0148,
+       "S3_STAR_AUDIT": 0.0074,
+       "S3_CONTROL": 0.0062
+      }
+     },
+     "invalid": 0,
+     "s5_ids_for_hand_check": []
+    },
+    "swarm": {
+     "overall_with_insufficient_as_label": {
+      "n": 1000,
+      "raw": 0.8,
+      "kappa": 0.6553,
+      "pabak": 0.76,
+      "categories": 6
+     },
+     "evidence_status": {
+      "n": 1000,
+      "raw": 0.903,
+      "kappa": 0.8061,
+      "pabak": 0.806,
+      "categories": 2
+     },
+     "primary_vsm_both_sufficient": {
+      "n": 408,
+      "raw": 0.7475,
+      "kappa": 0.3984,
+      "pabak": 0.6634,
+      "categories": 4
+     },
+     "per_label": {
+      "S1_OPERATIONS": {
+       "qwen_v2": 352,
+       "arm": 257,
+       "both": 254,
+       "specific_agreement": 0.8342
+      },
+      "S2_COORDINATION": {
+       "qwen_v2": 2,
+       "arm": 30,
+       "both": 2,
+       "specific_agreement": 0.125
+      },
+      "S3_CONTROL": {
+       "qwen_v2": 2,
+       "arm": 4,
+       "both": 0,
+       "specific_agreement": 0.0
+      },
+      "S4_INTELLIGENCE": {
+       "qwen_v2": 52,
+       "arm": 117,
+       "both": 49,
+       "specific_agreement": 0.5799
+      }
+     },
+     "confusion_qwen_v2_to_arm": {
+      "S1_OPERATIONS->S1_OPERATIONS": 254,
+      "S1_OPERATIONS->S4_INTELLIGENCE": 68,
+      "S4_INTELLIGENCE->S4_INTELLIGENCE": 49,
+      "S1_OPERATIONS->S2_COORDINATION": 26,
+      "S1_OPERATIONS->S3_CONTROL": 4,
+      "S2_COORDINATION->S2_COORDINATION": 2,
+      "S4_INTELLIGENCE->S1_OPERATIONS": 2,
+      "S4_INTELLIGENCE->S2_COORDINATION": 1,
+      "S3_CONTROL->S2_COORDINATION": 1,
+      "S3_CONTROL->S1_OPERATIONS": 1
+     },
+     "shares": {
+      "n_all": 1000,
+      "n_sufficient": 501,
+      "all_records": {
+       "INSUFF": 0.499,
+       "S1_OPERATIONS": 0.337,
+       "S4_INTELLIGENCE": 0.123,
+       "S2_COORDINATION": 0.032,
+       "S0_NOISE": 0.005,
+       "S3_CONTROL": 0.004
+      },
+      "sufficient_only": {
+       "S1_OPERATIONS": 0.6727,
+       "S4_INTELLIGENCE": 0.2455,
+       "S2_COORDINATION": 0.0639,
+       "S0_NOISE": 0.01,
+       "S3_CONTROL": 0.008
+      }
+     },
+     "invalid": 0,
+     "s5_ids_for_hand_check": []
+    }
+   },
+   "criteria": {
+    "i_wiki_S2_plurality": true,
+    "ii_swarm_S1_majority": true,
+    "gap_D": [
+     0.545,
+     0.4837,
+     0.5999
+    ],
+    "iii_gap_lower_CI_gt_20pp": true
+   },
+   "outcome": "PASS"
+  },
+  "B": {
+   "description": "qwen3.5-397b, shared prompt",
+   "per_corpus": {
+    "wiki": {
+     "overall_with_insufficient_as_label": {
+      "n": 1000,
+      "raw": 0.657,
+      "kappa": 0.5034,
+      "pabak": 0.5998,
+      "categories": 7
+     },
+     "evidence_status": {
+      "n": 1000,
+      "raw": 0.937,
+      "kappa": 0.642,
+      "pabak": 0.874,
+      "categories": 2
+     },
+     "primary_vsm_both_sufficient": {
+      "n": 871,
+      "raw": 0.6785,
+      "kappa": 0.4843,
+      "pabak": 0.6142,
+      "categories": 6
+     },
+     "per_label": {
+      "S0_NOISE": {
+       "qwen_v2": 3,
+       "arm": 2,
+       "both": 0,
+       "specific_agreement": 0.0
+      },
+      "S1_OPERATIONS": {
+       "qwen_v2": 220,
+       "arm": 396,
+       "both": 195,
+       "specific_agreement": 0.6331
+      },
+      "S2_COORDINATION": {
+       "qwen_v2": 539,
+       "arm": 347,
+       "both": 340,
+       "specific_agreement": 0.7675
+      },
+      "S3_CONTROL": {
+       "qwen_v2": 1,
+       "arm": 10,
+       "both": 1,
+       "specific_agreement": 0.1818
+      },
+      "S3_STAR_AUDIT": {
+       "qwen_v2": 1,
+       "arm": 8,
+       "both": 0,
+       "specific_agreement": 0.0
+      },
+      "S4_INTELLIGENCE": {
+       "qwen_v2": 107,
+       "arm": 108,
+       "both": 55,
+       "specific_agreement": 0.5116
+      }
+     },
+     "confusion_qwen_v2_to_arm": {
+      "S2_COORDINATION->S2_COORDINATION": 340,
+      "S1_OPERATIONS->S1_OPERATIONS": 195,
+      "S2_COORDINATION->S1_OPERATIONS": 147,
+      "S4_INTELLIGENCE->S4_INTELLIGENCE": 55,
+      "S4_INTELLIGENCE->S1_OPERATIONS": 52,
+      "S2_COORDINATION->S4_INTELLIGENCE": 34,
+      "S1_OPERATIONS->S4_INTELLIGENCE": 17,
+      "S2_COORDINATION->S3_CONTROL": 9,
+      "S2_COORDINATION->S3_STAR_AUDIT": 8,
+      "S1_OPERATIONS->S2_COORDINATION": 7,
+      "S0_NOISE->S1_OPERATIONS": 2,
+      "S1_OPERATIONS->S0_NOISE": 1,
+      "S0_NOISE->S4_INTELLIGENCE": 1,
+      "S2_COORDINATION->S0_NOISE": 1,
+      "S3_STAR_AUDIT->S4_INTELLIGENCE": 1,
+      "S3_CONTROL->S3_CONTROL": 1
+     },
+     "shares": {
+      "n_all": 1000,
+      "n_sufficient": 901,
+      "all_records": {
+       "S1_OPERATIONS": 0.415,
+       "S2_COORDINATION": 0.347,
+       "S4_INTELLIGENCE": 0.117,
+       "INSUFF": 0.099,
+       "S3_CONTROL": 0.01,
+       "S3_STAR_AUDIT": 0.008,
+       "S0_NOISE": 0.004
+      },
+      "sufficient_only": {
+       "S1_OPERATIONS": 0.4606,
+       "S2_COORDINATION": 0.3851,
+       "S4_INTELLIGENCE": 0.1299,
+       "S3_CONTROL": 0.0111,
+       "S3_STAR_AUDIT": 0.0089,
+       "S0_NOISE": 0.0044
+      }
+     },
+     "invalid": 0,
+     "s5_ids_for_hand_check": []
+    },
+    "swarm": {
+     "overall_with_insufficient_as_label": {
+      "n": 1000,
+      "raw": 0.905,
+      "kappa": 0.8209,
+      "pabak": 0.886,
+      "categories": 6
+     },
+     "evidence_status": {
+      "n": 1000,
+      "raw": 0.937,
+      "kappa": 0.871,
+      "pabak": 0.874,
+      "categories": 2
+     },
+     "primary_vsm_both_sufficient": {
+      "n": 391,
+      "raw": 0.9182,
+      "kappa": 0.6703,
+      "pabak": 0.8977,
+      "categories": 5
+     },
+     "per_label": {
+      "S1_OPERATIONS": {
+       "qwen_v2": 336,
+       "arm": 334,
+       "both": 319,
+       "specific_agreement": 0.9522
+      },
+      "S2_COORDINATION": {
+       "qwen_v2": 2,
+       "arm": 1,
+       "both": 0,
+       "specific_agreement": 0.0
+      },
+      "S3_CONTROL": {
+       "qwen_v2": 2,
+       "arm": 2,
+       "both": 0,
+       "specific_agreement": 0.0
+      },
+      "S3_STAR_AUDIT": {
+       "qwen_v2": 0,
+       "arm": 1,
+       "both": 0,
+       "specific_agreement": 0.0
+      },
+      "S4_INTELLIGENCE": {
+       "qwen_v2": 51,
+       "arm": 53,
+       "both": 40,
+       "specific_agreement": 0.7692
+      }
+     },
+     "confusion_qwen_v2_to_arm": {
+      "S1_OPERATIONS->S1_OPERATIONS": 319,
+      "S4_INTELLIGENCE->S4_INTELLIGENCE": 40,
+      "S1_OPERATIONS->S4_INTELLIGENCE": 13,
+      "S4_INTELLIGENCE->S1_OPERATIONS": 11,
+      "S2_COORDINATION->S1_OPERATIONS": 2,
+      "S3_CONTROL->S1_OPERATIONS": 2,
+      "S1_OPERATIONS->S3_CONTROL": 2,
+      "S1_OPERATIONS->S2_COORDINATION": 1,
+      "S1_OPERATIONS->S3_STAR_AUDIT": 1
+     },
+     "shares": {
+      "n_all": 1000,
+      "n_sufficient": 433,
+      "all_records": {
+       "INSUFF": 0.567,
+       "S1_OPERATIONS": 0.375,
+       "S4_INTELLIGENCE": 0.054,
+       "S3_CONTROL": 0.002,
+       "S2_COORDINATION": 0.001,
+       "S3_STAR_AUDIT": 0.001
+      },
+      "sufficient_only": {
+       "S1_OPERATIONS": 0.8661,
+       "S4_INTELLIGENCE": 0.1247,
+       "S3_CONTROL": 0.0046,
+       "S2_COORDINATION": 0.0023,
+       "S3_STAR_AUDIT": 0.0023
+      }
+     },
+     "invalid": 0,
+     "s5_ids_for_hand_check": []
+    }
+   },
+   "criteria": {
+    "i_wiki_S2_plurality": false,
+    "ii_swarm_S1_majority": true,
+    "gap_D": [
+     0.3828,
+     0.3396,
+     0.4253
+    ],
+    "iii_gap_lower_CI_gt_20pp": true
+   },
+   "what_the_relay_line_bought_wiki_S2": [
+    0.2189,
+    0.1861,
+    0.2513
+   ],
+   "outcome": "PARTIAL"
+  },
+  "Ap": {
+   "description": "deepseek-v4-flash, v2 prompts",
+   "per_corpus": {
+    "wiki": {
+     "overall_with_insufficient_as_label": {
+      "n": 1000,
+      "raw": 0.743,
+      "kappa": 0.6053,
+      "pabak": 0.7002,
+      "categories": 7
+     },
+     "evidence_status": {
+      "n": 1000,
+      "raw": 0.877,
+      "kappa": 0.521,
+      "pabak": 0.754,
+      "categories": 2
+     },
+     "primary_vsm_both_sufficient": {
+      "n": 791,
+      "raw": 0.8306,
+      "kappa": 0.6718,
+      "pabak": 0.7967,
+      "categories": 6
+     },
+     "per_label": {
+      "S0_NOISE": {
+       "qwen_v2": 4,
+       "arm": 22,
+       "both": 0,
+       "specific_agreement": 0.0
+      },
+      "S1_OPERATIONS": {
+       "qwen_v2": 179,
+       "arm": 232,
+       "both": 149,
+       "specific_agreement": 0.7251
+      },
+      "S2_COORDINATION": {
+       "qwen_v2": 522,
+       "arm": 494,
+       "both": 474,
+       "specific_agreement": 0.9331
+      },
+      "S3_CONTROL": {
+       "qwen_v2": 1,
+       "arm": 4,
+       "both": 1,
+       "specific_agreement": 0.4
+      },
+      "S3_STAR_AUDIT": {
+       "qwen_v2": 1,
+       "arm": 1,
+       "both": 1,
+       "specific_agreement": 1.0
+      },
+      "S4_INTELLIGENCE": {
+       "qwen_v2": 84,
+       "arm": 38,
+       "both": 32,
+       "specific_agreement": 0.5246
+      }
+     },
+     "confusion_qwen_v2_to_arm": {
+      "S2_COORDINATION->S2_COORDINATION": 474,
+      "S1_OPERATIONS->S1_OPERATIONS": 149,
+      "S4_INTELLIGENCE->S1_OPERATIONS": 43,
+      "S2_COORDINATION->S1_OPERATIONS": 36,
+      "S4_INTELLIGENCE->S4_INTELLIGENCE": 32,
+      "S1_OPERATIONS->S0_NOISE": 15,
+      "S1_OPERATIONS->S2_COORDINATION": 11,
+      "S4_INTELLIGENCE->S2_COORDINATION": 9,
+      "S2_COORDINATION->S0_NOISE": 7,
+      "S0_NOISE->S1_OPERATIONS": 4,
+      "S1_OPERATIONS->S4_INTELLIGENCE": 4,
+      "S2_COORDINATION->S3_CONTROL": 3,
+      "S2_COORDINATION->S4_INTELLIGENCE": 2,
+      "S3_STAR_AUDIT->S3_STAR_AUDIT": 1,
+      "S3_CONTROL->S3_CONTROL": 1
+     },
+     "shares": {
+      "n_all": 1000,
+      "n_sufficient": 801,
+      "all_records": {
+       "S2_COORDINATION": 0.495,
+       "S1_OPERATIONS": 0.235,
+       "INSUFF": 0.199,
+       "S4_INTELLIGENCE": 0.038,
+       "S0_NOISE": 0.028,
+       "S3_CONTROL": 0.004,
+       "S3_STAR_AUDIT": 0.001
+      },
+      "sufficient_only": {
+       "S2_COORDINATION": 0.618,
+       "S1_OPERATIONS": 0.2934,
+       "S4_INTELLIGENCE": 0.0474,
+       "S0_NOISE": 0.035,
+       "S3_CONTROL": 0.005,
+       "S3_STAR_AUDIT": 0.0012
+      }
+     },
+     "invalid": 0,
+     "s5_ids_for_hand_check": []
+    },
+    "swarm": {
+     "overall_with_insufficient_as_label": {
+      "n": 1000,
+      "raw": 0.86,
+      "kappa": 0.7463,
+      "pabak": 0.832,
+      "categories": 6
+     },
+     "evidence_status": {
+      "n": 1000,
+      "raw": 0.907,
+      "kappa": 0.8127,
+      "pabak": 0.814,
+      "categories": 2
+     },
+     "primary_vsm_both_sufficient": {
+      "n": 400,
+      "raw": 0.8825,
+      "kappa": 0.5877,
+      "pabak": 0.8433,
+      "categories": 4
+     },
+     "per_label": {
+      "S1_OPERATIONS": {
+       "qwen_v2": 344,
+       "arm": 325,
+       "both": 312,
+       "specific_agreement": 0.9327
+      },
+      "S2_COORDINATION": {
+       "qwen_v2": 2,
+       "arm": 18,
+       "both": 2,
+       "specific_agreement": 0.2
+      },
+      "S3_CONTROL": {
+       "qwen_v2": 2,
+       "arm": 8,
+       "both": 0,
+       "specific_agreement": 0.0
+      },
+      "S4_INTELLIGENCE": {
+       "qwen_v2": 52,
+       "arm": 49,
+       "both": 39,
+       "specific_agreement": 0.7723
+      }
+     },
+     "confusion_qwen_v2_to_arm": {
+      "S1_OPERATIONS->S1_OPERATIONS": 312,
+      "S4_INTELLIGENCE->S4_INTELLIGENCE": 39,
+      "S1_OPERATIONS->S2_COORDINATION": 14,
+      "S4_INTELLIGENCE->S1_OPERATIONS": 12,
+      "S1_OPERATIONS->S4_INTELLIGENCE": 10,
+      "S1_OPERATIONS->S3_CONTROL": 8,
+      "S2_COORDINATION->S2_COORDINATION": 2,
+      "S4_INTELLIGENCE->S2_COORDINATION": 1,
+      "S3_CONTROL->S2_COORDINATION": 1,
+      "S3_CONTROL->S1_OPERATIONS": 1
+     },
+     "shares": {
+      "n_all": 1000,
+      "n_sufficient": 481,
+      "all_records": {
+       "INSUFF": 0.519,
+       "S1_OPERATIONS": 0.394,
+       "S4_INTELLIGENCE": 0.052,
+       "S2_COORDINATION": 0.019,
+       "S3_CONTROL": 0.008,
+       "S0_NOISE": 0.008
+      },
+      "sufficient_only": {
+       "S1_OPERATIONS": 0.8191,
+       "S4_INTELLIGENCE": 0.1081,
+       "S2_COORDINATION": 0.0395,
+       "S3_CONTROL": 0.0166,
+       "S0_NOISE": 0.0166
+      }
+     },
+     "invalid": 0,
+     "s5_ids_for_hand_check": []
+    }
+   },
+   "criteria": {
+    "i_wiki_S2_plurality": true,
+    "ii_swarm_S1_majority": true,
+    "gap_D": [
+     0.5785,
+     0.5139,
+     0.635
+    ],
+    "iii_gap_lower_CI_gt_20pp": true
+   },
+   "outcome": "PASS"
+  }
+ },
+ "glm_vs_deepseek": {
+  "wiki": {
+   "n": 1000,
+   "raw": 0.773,
+   "kappa": 0.6634,
+   "pabak": 0.7352,
+   "categories": 7
+  },
+  "swarm": {
+   "n": 1000,
+   "raw": 0.827,
+   "kappa": 0.7122,
+   "pabak": 0.7924,
+   "categories": 6
+  }
+ }
+}

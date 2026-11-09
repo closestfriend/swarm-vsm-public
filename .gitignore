@@ -12,3 +12,6 @@ video/recordings/
 video/film/assets/narration/
 video/film/renders/
 node_modules/
+
+# Model-run logs can contain corpus-derived text or rationales.
+pilot_*.log

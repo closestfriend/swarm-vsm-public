@@ -1,0 +1,79 @@
+{
+ "config": {
+  "source": "swarm",
+  "input": "redacted.jsonl",
+  "prompt_sha256": "d15e8b7760a3bf6703711ba5968947cae9ebd38cc8b1efb6f3f41bb2a07bc101",
+  "episodes": null,
+  "payload_sample": 10,
+  "dag_children": 2,
+  "limit": 0,
+  "model": "qwen3.5-397b",
+  "swarm_cohort": "stratified",
+  "swarm_n": 6000,
+  "seed": 0,
+  "swarm_prompt": "swarm_prompt_v2.md",
+  "abstain": true,
+  "turn_order": "record ID order within heuristic episode; not time order"
+ },
+ "episode_counts": {
+  "stream:agent:payload": 4,
+  "dag:R0118813": 1,
+  "dag:R0133041": 1,
+  "stream:agent:recovered_text": 1,
+  "dag:R0117991": 1,
+  "dag:R0117956": 1,
+  "dag:R0113239": 1
+ },
+ "records": [
+  {
+   "id": "R0139812",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1869
+  },
+  {
+   "id": "R0140059",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1883
+  },
+  {
+   "id": "R0012075",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 198
+  },
+  {
+   "id": "R0114823",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1131
+  },
+  {
+   "id": "R0169231",
+   "episode_id": "dag:R0118813",
+   "turn_index": 0
+  },
+  {
+   "id": "R0178651",
+   "episode_id": "dag:R0133041",
+   "turn_index": 0
+  },
+  {
+   "id": "R0088753",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 183
+  },
+  {
+   "id": "R0170348",
+   "episode_id": "dag:R0117991",
+   "turn_index": 1
+  },
+  {
+   "id": "R0155547",
+   "episode_id": "dag:R0117956",
+   "turn_index": 0
+  },
+  {
+   "id": "R0147718",
+   "episode_id": "dag:R0113239",
+   "turn_index": 0
+  }
+ ]
+}

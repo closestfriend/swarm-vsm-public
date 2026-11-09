@@ -1,0 +1,5383 @@
+{
+ "config": {
+  "source": "swarm",
+  "input": "redacted.jsonl",
+  "prompt_sha256": "d15e8b7760a3bf6703711ba5968947cae9ebd38cc8b1efb6f3f41bb2a07bc101",
+  "episodes": null,
+  "payload_sample": 10,
+  "dag_children": 2,
+  "limit": 0,
+  "model": "qwen3.5-397b",
+  "swarm_cohort": "stratified",
+  "swarm_n": 6000,
+  "seed": 0,
+  "swarm_prompt": "swarm_prompt_v2.md",
+  "abstain": true,
+  "turn_order": "record ID order within heuristic episode; not time order"
+ },
+ "episode_counts": {
+  "stream:agent:payload": 341,
+  "stream:[CREDENTIAL 220]": 15,
+  "stream:[CREDENTIAL 15]": 13,
+  "stream:[CREDENTIAL 1171]": 2,
+  "stream:[CREDENTIAL 223]": 2,
+  "stream:[CREDENTIAL 3743]": 1,
+  "stream:[CREDENTIAL 169]": 29,
+  "stream:[REDACTED:runtime_identifier]": 66,
+  "stream:[CREDENTIAL 170]": 22,
+  "stream:[CREDENTIAL 2090]": 1,
+  "stream:[CREDENTIAL 1315]": 1,
+  "stream:[CREDENTIAL 1334]": 2,
+  "stream:[CREDENTIAL 1728]": 1,
+  "stream:[CREDENTIAL 1300]": 1,
+  "stream:[CREDENTIAL 1203]": 1,
+  "stream:[CREDENTIAL 1]": 6,
+  "stream:[CREDENTIAL 2475]": 1,
+  "stream:[CREDENTIAL 2208]": 1,
+  "stream:[CREDENTIAL 1623]": 3,
+  "stream:[CREDENTIAL 1720]": 3,
+  "stream:[CREDENTIAL 1702]": 1,
+  "stream:[CREDENTIAL 2466]": 3,
+  "stream:[CREDENTIAL 222]": 2,
+  "stream:[CREDENTIAL 658]": 1,
+  "stream:[CREDENTIAL 184]": 1,
+  "stream:[CREDENTIAL 1224]": 1,
+  "stream:[CREDENTIAL 419]": 1,
+  "stream:[CREDENTIAL 2094]": 1,
+  "stream:[CREDENTIAL 736]": 1,
+  "stream:[CREDENTIAL 582]": 1,
+  "stream:[CREDENTIAL 2352]": 1,
+  "stream:[REDACTED:runtime_identifier:000003]": 1,
+  "stream:[CREDENTIAL 611]": 1,
+  "stream:[CREDENTIAL 3536]": 1,
+  "stream:[CREDENTIAL 2961]": 1,
+  "stream:[CREDENTIAL 624]": 1,
+  "stream:[CREDENTIAL 1723]": 1,
+  "stream:[CREDENTIAL 2111]": 1,
+  "stream:[CREDENTIAL 2831]": 1,
+  "stream:[CREDENTIAL 2495]": 1,
+  "stream:[REDACTED:runtime_identifier:000001]": 3,
+  "dag:R0135097": 1,
+  "dag:R0026581": 1,
+  "dag:R0033554": 1,
+  "dag:R0144155": 1,
+  "dag:R0044006": 1,
+  "dag:R0144637": 1,
+  "dag:R0120162": 1,
+  "stream:agent:recovered_text": 117,
+  "dag:R0139699": 1,
+  "dag:R0136139": 1,
+  "dag:R0128369": 1,
+  "dag:R0024455": 4,
+  "dag:R0138069": 1,
+  "dag:R0128905": 1,
+  "dag:R0139094": 1,
+  "dag:R0113686": 1,
+  "dag:R0144235": 1,
+  "dag:R0048333": 1,
+  "dag:R0007053": 1,
+  "dag:R0079005": 1,
+  "dag:R0130297": 1,
+  "dag:R0028074": 1,
+  "dag:R0047842": 1,
+  "dag:R0127730": 1,
+  "dag:R0134845": 1,
+  "dag:R0124364": 1,
+  "stream:[CREDENTIAL 2571]": 1,
+  "dag:R0049056": 1,
+  "dag:R0118915": 1,
+  "dag:R0017869": 1,
+  "dag:R0144472": 1,
+  "dag:R0142408": 1,
+  "dag:R0143120": 1,
+  "dag:R0028572": 1,
+  "dag:R0044683": 1,
+  "dag:R0142016": 1,
+  "dag:R0118467": 1,
+  "dag:R0131949": 1,
+  "dag:R0079394": 1,
+  "dag:R0119113": 1,
+  "dag:R0123302": 1,
+  "dag:R0146390": 1,
+  "dag:R0028049": 1,
+  "dag:R0011467": 1,
+  "dag:R0127646": 1,
+  "dag:R0000985": 1,
+  "dag:R0132441": 1,
+  "dag:R0137602": 1,
+  "dag:R0005886": 1,
+  "dag:R0135471": 1,
+  "dag:R0116868": 1,
+  "dag:R0127851": 1,
+  "dag:R0129782": 1,
+  "dag:R0113184": 1,
+  "dag:R0116465": 1,
+  "dag:R0008240": 1,
+  "dag:R0137790": 1,
+  "dag:R0126696": 1,
+  "dag:R0003033": 1,
+  "stream:[CREDENTIAL 3252]": 1,
+  "dag:R0129973": 1,
+  "dag:R0043462": 1,
+  "dag:R0004765": 1,
+  "stream:[CREDENTIAL 21]": 1,
+  "dag:R0142118": 1,
+  "dag:R0142767": 1,
+  "dag:R0028893": 1,
+  "dag:R0121523": 1,
+  "dag:R0140231": 1,
+  "dag:R0020105": 1,
+  "dag:R0116945": 1,
+  "dag:R0133536": 1,
+  "dag:R0047278": 1,
+  "dag:R0128586": 1,
+  "dag:R0027627": 1,
+  "dag:R0035128": 1,
+  "dag:R0118118": 1,
+  "dag:R0142555": 1,
+  "dag:R0142438": 1,
+  "dag:R0146676": 1,
+  "dag:R0128853": 1,
+  "dag:R0001098": 1,
+  "dag:R0081085": 1,
+  "dag:R0113669": 1,
+  "dag:R0126857": 1,
+  "dag:R0136263": 1,
+  "dag:R0002925": 1,
+  "dag:R0116480": 1,
+  "dag:R0001693": 1,
+  "dag:R0140981": 1,
+  "dag:R0130151": 1,
+  "dag:R0079220": 1,
+  "stream:[CREDENTIAL 3495]": 1,
+  "dag:R0141646": 1,
+  "dag:R0137030": 1,
+  "dag:R0079070": 1,
+  "dag:R0080181": 1,
+  "dag:R0047615": 1,
+  "dag:R0138649": 1,
+  "dag:R0141081": 1,
+  "dag:R0049691": 1,
+  "dag:R0141821": 1,
+  "dag:R0126950": 1,
+  "dag:R0136179": 1,
+  "dag:R0118425": 1,
+  "dag:R0138748": 1,
+  "dag:R0116489": 1,
+  "dag:R0118546": 1,
+  "dag:R0032199": 1,
+  "dag:R0024044": 1,
+  "dag:R0006047": 1,
+  "dag:R0146071": 1,
+  "dag:R0079113": 1,
+  "dag:R0138530": 1,
+  "dag:R0116469": 1,
+  "dag:R0130304": 1,
+  "dag:R0118432": 1,
+  "dag:R0016458": 1,
+  "dag:R0144536": 1,
+  "stream:[CREDENTIAL 815]": 1,
+  "dag:R0132396": 1,
+  "dag:R0132258": 1,
+  "dag:R0128015": 1,
+  "dag:R0013968": 1,
+  "dag:R0079108": 1,
+  "stream:[CREDENTIAL 18]": 1,
+  "dag:R0124689": 1,
+  "dag:R0080291": 1,
+  "dag:R0017443": 1,
+  "dag:R0079063": 1,
+  "dag:R0134837": 1,
+  "dag:R0038340": 1,
+  "dag:R0029680": 1,
+  "dag:R0079312": 2,
+  "dag:R0026539": 1,
+  "dag:R0117227": 1,
+  "dag:R0139103": 1,
+  "dag:R0142260": 1,
+  "dag:R0131823": 1,
+  "dag:R0117429": 1,
+  "stream:[CREDENTIAL 3031]": 1,
+  "dag:R0118325": 1,
+  "dag:R0141405": 1,
+  "dag:R0141072": 1,
+  "dag:R0138811": 1,
+  "dag:R0132571": 1,
+  "dag:R0132954": 1,
+  "dag:R0035254": 1,
+  "dag:R0001390": 1,
+  "dag:R0037296": 1,
+  "dag:R0079146": 1,
+  "dag:R0113879": 1,
+  "dag:R0143611": 1,
+  "dag:R0010913": 1,
+  "dag:R0138746": 1,
+  "dag:R0118509": 1,
+  "dag:R0001339": 1,
+  "dag:R0042707": 1,
+  "stream:[CREDENTIAL 2250]": 1,
+  "dag:R0079624": 1,
+  "dag:R0000831": 1,
+  "dag:R0113337": 1,
+  "stream:[CREDENTIAL 3011]": 1,
+  "dag:R0040121": 1,
+  "dag:R0034044": 1,
+  "dag:R0145791": 1,
+  "dag:R0117517": 2,
+  "dag:R0078994": 1,
+  "dag:R0118547": 1,
+  "dag:R0140999": 1,
+  "dag:R0031965": 1,
+  "dag:R0143735": 1,
+  "episode:article-evidence": 1,
+  "dag:R0132652": 1,
+  "dag:R0135720": 1,
+  "dag:R0127681": 1,
+  "dag:R0079136": 1,
+  "dag:R0130727": 1,
+  "dag:R0129230": 1,
+  "dag:R0130314": 1,
+  "dag:R0117914": 2,
+  "dag:R0130143": 1,
+  "dag:R0117987": 1,
+  "dag:R0136358": 1,
+  "dag:R0113696": 1,
+  "dag:R0141486": 1,
+  "dag:R0117377": 1,
+  "dag:R0113349": 1,
+  "dag:R0134415": 1,
+  "dag:R0018262": 1,
+  "dag:R0142431": 1,
+  "dag:R0116526": 1,
+  "dag:R0136097": 1,
+  "dag:R0051549": 1,
+  "dag:R0116818": 1,
+  "dag:R0118967": 1,
+  "dag:R0116625": 1,
+  "dag:R0078985": 1,
+  "dag:R0121711": 1,
+  "dag:R0135757": 1,
+  "dag:R0113764": 1,
+  "dag:R0080100": 1,
+  "dag:R0012645": 1,
+  "dag:R0044562": 1,
+  "dag:R0130701": 1,
+  "dag:R0136678": 1,
+  "dag:R0139744": 1,
+  "dag:R0031681": 1,
+  "dag:R0118834": 1,
+  "dag:R0118282": 1,
+  "dag:R0014035": 1,
+  "dag:R0138456": 1,
+  "dag:R0029307": 1,
+  "dag:R0131600": 1,
+  "dag:R0117637": 1,
+  "dag:R0027551": 1,
+  "dag:R0143041": 1,
+  "dag:R0143790": 1,
+  "dag:R0143199": 1,
+  "dag:R0141463": 1,
+  "dag:R0079059": 1,
+  "dag:R0141615": 1,
+  "dag:R0143963": 1,
+  "dag:R0042291": 1,
+  "dag:R0129579": 1,
+  "dag:R0006921": 1,
+  "dag:R0127673": 1,
+  "dag:R0132220": 1,
+  "dag:R0029676": 1,
+  "dag:R0079042": 1,
+  "dag:R0134463": 1,
+  "dag:R0138742": 1,
+  "dag:R0053349": 1,
+  "dag:R0113626": 1,
+  "dag:R0117453": 1,
+  "dag:R0030844": 1,
+  "dag:R0124855": 1,
+  "dag:R0116645": 1,
+  "dag:R0117991": 1,
+  "dag:R0046236": 1,
+  "dag:R0080310": 2,
+  "dag:R0022163": 1,
+  "dag:R0079162": 1,
+  "dag:R0116684": 1,
+  "stream:agent:response": 20,
+  "dag:R0113313": 1,
+  "dag:R0048355": 1,
+  "dag:R0027931": 1,
+  "dag:R0007057": 1,
+  "dag:R0023392": 1,
+  "dag:R0040019": 1,
+  "dag:R0117755": 1,
+  "dag:R0079129": 1,
+  "dag:R0118395": 1,
+  "dag:R0117661": 1,
+  "dag:R0028622": 1,
+  "dag:R0041601": 1,
+  "dag:R0116515": 1,
+  "dag:R0117995": 1,
+  "dag:R0117126": 1,
+  "dag:R0125052": 1,
+  "dag:R0020353": 1,
+  "dag:R0116531": 1,
+  "dag:R0078984": 1,
+  "dag:R0117489": 1,
+  "dag:R0118680": 1,
+  "dag:R0079186": 1,
+  "dag:R0051986": 1,
+  "dag:R0012888": 1,
+  "dag:R0113824": 1,
+  "dag:R0118485": 1,
+  "dag:R0038193": 1,
+  "dag:R0117066": 1,
+  "dag:R0124191": 1,
+  "dag:R0118421": 1,
+  "dag:R0118111": 1,
+  "dag:R0117134": 1,
+  "dag:R0079135": 1,
+  "dag:R0079235": 1,
+  "dag:R0116639": 1,
+  "dag:R0029667": 1,
+  "dag:R0078963": 1,
+  "dag:R0113780": 1,
+  "dag:R0079105": 1,
+  "dag:R0117037": 1,
+  "dag:R0113628": 1,
+  "dag:R0116824": 1,
+  "dag:R0117682": 1,
+  "dag:R0018206": 1,
+  "dag:R0117295": 1,
+  "dag:R0117477": 1,
+  "dag:R0117534": 1,
+  "dag:R0117123": 1,
+  "dag:R0039970": 1,
+  "dag:R0113574": 1,
+  "dag:R0118922": 1,
+  "dag:R0122161": 1,
+  "dag:R0118833": 1,
+  "dag:R0000324": 1,
+  "dag:R0029625": 1,
+  "dag:R0006926": 1,
+  "dag:R0038368": 1,
+  "stream:[CREDENTIAL 1722]": 1,
+  "stream:[CREDENTIAL 2716]": 1,
+  "dag:R0033446": 1,
+  "dag:R0030994": 1,
+  "dag:R0033801": 1,
+  "dag:R0003417": 1,
+  "dag:R0017251": 1,
+  "dag:R0117623": 1,
+  "dag:R0079510": 1,
+  "dag:R0048239": 1,
+  "dag:R0123508": 1,
+  "dag:R0116746": 1,
+  "dag:R0116658": 1,
+  "dag:R0113692": 1,
+  "dag:R0118292": 1,
+  "dag:R0038559": 1,
+  "dag:R0008077": 1,
+  "dag:R0050180": 1
+ },
+ "records": [
+  {
+   "id": "R0132033",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1626
+  },
+  {
+   "id": "R0024168",
+   "episode_id": "stream:[CREDENTIAL 220]",
+   "turn_index": 50
+  },
+  {
+   "id": "R0006131",
+   "episode_id": "stream:[CREDENTIAL 15]",
+   "turn_index": 23
+  },
+  {
+   "id": "R0136746",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1766
+  },
+  {
+   "id": "R0024737",
+   "episode_id": "stream:[CREDENTIAL 1171]",
+   "turn_index": 2
+  },
+  {
+   "id": "R0130202",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1579
+  },
+  {
+   "id": "R0008836",
+   "episode_id": "stream:[CREDENTIAL 223]",
+   "turn_index": 2
+  },
+  {
+   "id": "R0035235",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 697
+  },
+  {
+   "id": "R0118307",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1225
+  },
+  {
+   "id": "R0122432",
+   "episode_id": "stream:[CREDENTIAL 3743]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0023424",
+   "episode_id": "stream:[CREDENTIAL 220]",
+   "turn_index": 47
+  },
+  {
+   "id": "R0028245",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 577
+  },
+  {
+   "id": "R0014529",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 258
+  },
+  {
+   "id": "R0119622",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1262
+  },
+  {
+   "id": "R0125872",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1443
+  },
+  {
+   "id": "R0024634",
+   "episode_id": "stream:[CREDENTIAL 1171]",
+   "turn_index": 1
+  },
+  {
+   "id": "R0040273",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 801
+  },
+  {
+   "id": "R0032130",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 73
+  },
+  {
+   "id": "R0081068",
+   "episode_id": "stream:[CREDENTIAL 220]",
+   "turn_index": 89
+  },
+  {
+   "id": "R0013630",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 234
+  },
+  {
+   "id": "R0021127",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 432
+  },
+  {
+   "id": "R0137676",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1790
+  },
+  {
+   "id": "R0133661",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1673
+  },
+  {
+   "id": "R0042737",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 132
+  },
+  {
+   "id": "R0117156",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1197
+  },
+  {
+   "id": "R0114661",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1121
+  },
+  {
+   "id": "R0112890",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1080
+  },
+  {
+   "id": "R0010288",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 7
+  },
+  {
+   "id": "R0132678",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1646
+  },
+  {
+   "id": "R0133048",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1658
+  },
+  {
+   "id": "R0125383",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1430
+  },
+  {
+   "id": "R0044107",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 887
+  },
+  {
+   "id": "R0019532",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 391
+  },
+  {
+   "id": "R0028657",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 587
+  },
+  {
+   "id": "R0117408",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1203
+  },
+  {
+   "id": "R0038261",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 767
+  },
+  {
+   "id": "R0125768",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1441
+  },
+  {
+   "id": "R0144991",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 2028
+  },
+  {
+   "id": "R0001488",
+   "episode_id": "stream:[CREDENTIAL 15]",
+   "turn_index": 7
+  },
+  {
+   "id": "R0007492",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 49
+  },
+  {
+   "id": "R0009942",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 175
+  },
+  {
+   "id": "R0025629",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 31
+  },
+  {
+   "id": "R0126583",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1460
+  },
+  {
+   "id": "R0141065",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1918
+  },
+  {
+   "id": "R0003356",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 31
+  },
+  {
+   "id": "R0140522",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1898
+  },
+  {
+   "id": "R0029614",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 599
+  },
+  {
+   "id": "R0119733",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1266
+  },
+  {
+   "id": "R0137025",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1771
+  },
+  {
+   "id": "R0145990",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 2057
+  },
+  {
+   "id": "R0025617",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 516
+  },
+  {
+   "id": "R0003147",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 30
+  },
+  {
+   "id": "R0134143",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1688
+  },
+  {
+   "id": "R0115954",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1156
+  },
+  {
+   "id": "R0122438",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1345
+  },
+  {
+   "id": "R0146575",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 2074
+  },
+  {
+   "id": "R0023264",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 26
+  },
+  {
+   "id": "R0117907",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1211
+  },
+  {
+   "id": "R0020573",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 15
+  },
+  {
+   "id": "R0015314",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 278
+  },
+  {
+   "id": "R0125571",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1436
+  },
+  {
+   "id": "R0146327",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 2072
+  },
+  {
+   "id": "R0079164",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1038
+  },
+  {
+   "id": "R0017332",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 339
+  },
+  {
+   "id": "R0126518",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1459
+  },
+  {
+   "id": "R0028005",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 571
+  },
+  {
+   "id": "R0016538",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 31
+  },
+  {
+   "id": "R0112883",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1079
+  },
+  {
+   "id": "R0035023",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 79
+  },
+  {
+   "id": "R0025429",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 30
+  },
+  {
+   "id": "R0019502",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 97
+  },
+  {
+   "id": "R0003129",
+   "episode_id": "stream:[CREDENTIAL 15]",
+   "turn_index": 15
+  },
+  {
+   "id": "R0000237",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 3
+  },
+  {
+   "id": "R0138002",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1800
+  },
+  {
+   "id": "R0134222",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1693
+  },
+  {
+   "id": "R0018538",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 43
+  },
+  {
+   "id": "R0119477",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1257
+  },
+  {
+   "id": "R0037906",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 763
+  },
+  {
+   "id": "R0034923",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 70
+  },
+  {
+   "id": "R0017304",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 4
+  },
+  {
+   "id": "R0137015",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1770
+  },
+  {
+   "id": "R0079774",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1054
+  },
+  {
+   "id": "R0146299",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 2070
+  },
+  {
+   "id": "R0027787",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 566
+  },
+  {
+   "id": "R0136119",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1750
+  },
+  {
+   "id": "R0037684",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 74
+  },
+  {
+   "id": "R0017381",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 36
+  },
+  {
+   "id": "R0146846",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 2083
+  },
+  {
+   "id": "R0045708",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 135
+  },
+  {
+   "id": "R0003948",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 63
+  },
+  {
+   "id": "R0134780",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1714
+  },
+  {
+   "id": "R0134923",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1719
+  },
+  {
+   "id": "R0147052",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 2092
+  },
+  {
+   "id": "R0007607",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 51
+  },
+  {
+   "id": "R0040241",
+   "episode_id": "stream:[CREDENTIAL 220]",
+   "turn_index": 66
+  },
+  {
+   "id": "R0045606",
+   "episode_id": "stream:[CREDENTIAL 2090]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0033592",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 67
+  },
+  {
+   "id": "R0128614",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1530
+  },
+  {
+   "id": "R0144092",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 2004
+  },
+  {
+   "id": "R0023863",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 482
+  },
+  {
+   "id": "R0042322",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 857
+  },
+  {
+   "id": "R0035296",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 699
+  },
+  {
+   "id": "R0031775",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 57
+  },
+  {
+   "id": "R0045453",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 908
+  },
+  {
+   "id": "R0002031",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 31
+  },
+  {
+   "id": "R0008453",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 152
+  },
+  {
+   "id": "R0136146",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1751
+  },
+  {
+   "id": "R0139959",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1877
+  },
+  {
+   "id": "R0026256",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 538
+  },
+  {
+   "id": "R0035366",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 700
+  },
+  {
+   "id": "R0025969",
+   "episode_id": "stream:[CREDENTIAL 1315]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0116870",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1190
+  },
+  {
+   "id": "R0008394",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 150
+  },
+  {
+   "id": "R0004927",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 84
+  },
+  {
+   "id": "R0132373",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1635
+  },
+  {
+   "id": "R0129757",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1564
+  },
+  {
+   "id": "R0116438",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1175
+  },
+  {
+   "id": "R0143365",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1981
+  },
+  {
+   "id": "R0005365",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0120370",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1288
+  },
+  {
+   "id": "R0117585",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1206
+  },
+  {
+   "id": "R0120087",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1279
+  },
+  {
+   "id": "R0022891",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 468
+  },
+  {
+   "id": "R0117027",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1193
+  },
+  {
+   "id": "R0018202",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 42
+  },
+  {
+   "id": "R0032422",
+   "episode_id": "stream:[CREDENTIAL 1334]",
+   "turn_index": 1
+  },
+  {
+   "id": "R0020706",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 50
+  },
+  {
+   "id": "R0044657",
+   "episode_id": "stream:[CREDENTIAL 1728]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0046195",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 914
+  },
+  {
+   "id": "R0120021",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1276
+  },
+  {
+   "id": "R0137480",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1785
+  },
+  {
+   "id": "R0025859",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 524
+  },
+  {
+   "id": "R0034647",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 77
+  },
+  {
+   "id": "R0141165",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1922
+  },
+  {
+   "id": "R0114260",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1104
+  },
+  {
+   "id": "R0013289",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 228
+  },
+  {
+   "id": "R0033296",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 658
+  },
+  {
+   "id": "R0003365",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 57
+  },
+  {
+   "id": "R0017750",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 40
+  },
+  {
+   "id": "R0043266",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 874
+  },
+  {
+   "id": "R0026004",
+   "episode_id": "stream:[CREDENTIAL 1300]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0017097",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 332
+  },
+  {
+   "id": "R0052007",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1003
+  },
+  {
+   "id": "R0001093",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 12
+  },
+  {
+   "id": "R0023376",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 475
+  },
+  {
+   "id": "R0011780",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 193
+  },
+  {
+   "id": "R0009564",
+   "episode_id": "stream:[CREDENTIAL 223]",
+   "turn_index": 3
+  },
+  {
+   "id": "R0038336",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 769
+  },
+  {
+   "id": "R0033414",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 661
+  },
+  {
+   "id": "R0025156",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 504
+  },
+  {
+   "id": "R0024605",
+   "episode_id": "stream:[CREDENTIAL 1203]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0123274",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1361
+  },
+  {
+   "id": "R0000750",
+   "episode_id": "stream:[CREDENTIAL 15]",
+   "turn_index": 1
+  },
+  {
+   "id": "R0143380",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1982
+  },
+  {
+   "id": "R0118949",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1241
+  },
+  {
+   "id": "R0113950",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1096
+  },
+  {
+   "id": "R0039888",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 794
+  },
+  {
+   "id": "R0023157",
+   "episode_id": "stream:[CREDENTIAL 220]",
+   "turn_index": 46
+  },
+  {
+   "id": "R0133140",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1661
+  },
+  {
+   "id": "R0005321",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 95
+  },
+  {
+   "id": "R0128396",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1522
+  },
+  {
+   "id": "R0114587",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1118
+  },
+  {
+   "id": "R0012390",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 204
+  },
+  {
+   "id": "R0000881",
+   "episode_id": "stream:[CREDENTIAL 15]",
+   "turn_index": 2
+  },
+  {
+   "id": "R0140565",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1900
+  },
+  {
+   "id": "R0043615",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 879
+  },
+  {
+   "id": "R0005462",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 101
+  },
+  {
+   "id": "R0003787",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 62
+  },
+  {
+   "id": "R0037479",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 748
+  },
+  {
+   "id": "R0136830",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1768
+  },
+  {
+   "id": "R0029708",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 600
+  },
+  {
+   "id": "R0022243",
+   "episode_id": "stream:[CREDENTIAL 220]",
+   "turn_index": 43
+  },
+  {
+   "id": "R0021245",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 437
+  },
+  {
+   "id": "R0127977",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1505
+  },
+  {
+   "id": "R0013742",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 240
+  },
+  {
+   "id": "R0011999",
+   "episode_id": "stream:[CREDENTIAL 1]",
+   "turn_index": 15
+  },
+  {
+   "id": "R0011126",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 60
+  },
+  {
+   "id": "R0017021",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 329
+  },
+  {
+   "id": "R0132649",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1643
+  },
+  {
+   "id": "R0028472",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 584
+  },
+  {
+   "id": "R0010768",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 58
+  },
+  {
+   "id": "R0035686",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 710
+  },
+  {
+   "id": "R0050560",
+   "episode_id": "stream:[CREDENTIAL 2475]",
+   "turn_index": 3
+  },
+  {
+   "id": "R0010157",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 178
+  },
+  {
+   "id": "R0144395",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 2015
+  },
+  {
+   "id": "R0029845",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 602
+  },
+  {
+   "id": "R0128302",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1520
+  },
+  {
+   "id": "R0014647",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 23
+  },
+  {
+   "id": "R0028522",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 586
+  },
+  {
+   "id": "R0132793",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1651
+  },
+  {
+   "id": "R0138096",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1805
+  },
+  {
+   "id": "R0138951",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1837
+  },
+  {
+   "id": "R0040202",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 800
+  },
+  {
+   "id": "R0129867",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1568
+  },
+  {
+   "id": "R0130545",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1591
+  },
+  {
+   "id": "R0046457",
+   "episode_id": "stream:[CREDENTIAL 2208]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0019373",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 386
+  },
+  {
+   "id": "R0027334",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 555
+  },
+  {
+   "id": "R0132558",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1640
+  },
+  {
+   "id": "R0042249",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 854
+  },
+  {
+   "id": "R0131268",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1611
+  },
+  {
+   "id": "R0139011",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1839
+  },
+  {
+   "id": "R0039704",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 791
+  },
+  {
+   "id": "R0126600",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1463
+  },
+  {
+   "id": "R0141460",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1929
+  },
+  {
+   "id": "R0135146",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1725
+  },
+  {
+   "id": "R0147326",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 2102
+  },
+  {
+   "id": "R0115810",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1153
+  },
+  {
+   "id": "R0028207",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 61
+  },
+  {
+   "id": "R0013777",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 20
+  },
+  {
+   "id": "R0129284",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1550
+  },
+  {
+   "id": "R0135764",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1737
+  },
+  {
+   "id": "R0079902",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 172
+  },
+  {
+   "id": "R0034948",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 692
+  },
+  {
+   "id": "R0036790",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 87
+  },
+  {
+   "id": "R0043014",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 871
+  },
+  {
+   "id": "R0041180",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 830
+  },
+  {
+   "id": "R0017062",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 3
+  },
+  {
+   "id": "R0044429",
+   "episode_id": "stream:[CREDENTIAL 1623]",
+   "turn_index": 6
+  },
+  {
+   "id": "R0026975",
+   "episode_id": "stream:[CREDENTIAL 220]",
+   "turn_index": 57
+  },
+  {
+   "id": "R0122193",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1339
+  },
+  {
+   "id": "R0142422",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1954
+  },
+  {
+   "id": "R0118052",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1216
+  },
+  {
+   "id": "R0015291",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 277
+  },
+  {
+   "id": "R0139961",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1878
+  },
+  {
+   "id": "R0114132",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1098
+  },
+  {
+   "id": "R0031579",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 55
+  },
+  {
+   "id": "R0119475",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1256
+  },
+  {
+   "id": "R0051099",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 991
+  },
+  {
+   "id": "R0035559",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 707
+  },
+  {
+   "id": "R0038329",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 768
+  },
+  {
+   "id": "R0129533",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1557
+  },
+  {
+   "id": "R0080897",
+   "episode_id": "stream:[CREDENTIAL 220]",
+   "turn_index": 88
+  },
+  {
+   "id": "R0044838",
+   "episode_id": "stream:[CREDENTIAL 1720]",
+   "turn_index": 3
+  },
+  {
+   "id": "R0027980",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 569
+  },
+  {
+   "id": "R0118182",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1222
+  },
+  {
+   "id": "R0047381",
+   "episode_id": "stream:[CREDENTIAL 1720]",
+   "turn_index": 9
+  },
+  {
+   "id": "R0026926",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 548
+  },
+  {
+   "id": "R0130741",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1594
+  },
+  {
+   "id": "R0122641",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1351
+  },
+  {
+   "id": "R0048420",
+   "episode_id": "stream:[CREDENTIAL 1702]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0132099",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1630
+  },
+  {
+   "id": "R0079762",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1053
+  },
+  {
+   "id": "R0133397",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1669
+  },
+  {
+   "id": "R0081153",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1073
+  },
+  {
+   "id": "R0141032",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1916
+  },
+  {
+   "id": "R0040799",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 819
+  },
+  {
+   "id": "R0125020",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1419
+  },
+  {
+   "id": "R0049286",
+   "episode_id": "stream:[CREDENTIAL 1720]",
+   "turn_index": 13
+  },
+  {
+   "id": "R0134163",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1689
+  },
+  {
+   "id": "R0041827",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 844
+  },
+  {
+   "id": "R0080170",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1059
+  },
+  {
+   "id": "R0033634",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 668
+  },
+  {
+   "id": "R0034397",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 685
+  },
+  {
+   "id": "R0116329",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1171
+  },
+  {
+   "id": "R0012189",
+   "episode_id": "stream:[CREDENTIAL 1]",
+   "turn_index": 16
+  },
+  {
+   "id": "R0048145",
+   "episode_id": "stream:[CREDENTIAL 2466]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0120544",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1292
+  },
+  {
+   "id": "R0138018",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1801
+  },
+  {
+   "id": "R0034792",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 69
+  },
+  {
+   "id": "R0049696",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 970
+  },
+  {
+   "id": "R0031707",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 631
+  },
+  {
+   "id": "R0115299",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1141
+  },
+  {
+   "id": "R0041733",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 83
+  },
+  {
+   "id": "R0136692",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1765
+  },
+  {
+   "id": "R0008859",
+   "episode_id": "stream:[CREDENTIAL 222]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0011033",
+   "episode_id": "stream:[CREDENTIAL 658]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0002138",
+   "episode_id": "stream:[CREDENTIAL 15]",
+   "turn_index": 13
+  },
+  {
+   "id": "R0028109",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 574
+  },
+  {
+   "id": "R0003400",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 33
+  },
+  {
+   "id": "R0122826",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1353
+  },
+  {
+   "id": "R0118043",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1215
+  },
+  {
+   "id": "R0034460",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 687
+  },
+  {
+   "id": "R0006188",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 124
+  },
+  {
+   "id": "R0051540",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 158
+  },
+  {
+   "id": "R0024554",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 493
+  },
+  {
+   "id": "R0125368",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1429
+  },
+  {
+   "id": "R0124929",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1415
+  },
+  {
+   "id": "R0049788",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 155
+  },
+  {
+   "id": "R0134691",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1705
+  },
+  {
+   "id": "R0121905",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1334
+  },
+  {
+   "id": "R0022419",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 54
+  },
+  {
+   "id": "R0041727",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 842
+  },
+  {
+   "id": "R0033547",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 124
+  },
+  {
+   "id": "R0138840",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1835
+  },
+  {
+   "id": "R0017117",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 334
+  },
+  {
+   "id": "R0031714",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 632
+  },
+  {
+   "id": "R0037441",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 746
+  },
+  {
+   "id": "R0041084",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 826
+  },
+  {
+   "id": "R0002402",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 21
+  },
+  {
+   "id": "R0005966",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 118
+  },
+  {
+   "id": "R0049549",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 964
+  },
+  {
+   "id": "R0025390",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 510
+  },
+  {
+   "id": "R0008718",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 158
+  },
+  {
+   "id": "R0079143",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1037
+  },
+  {
+   "id": "R0115199",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1138
+  },
+  {
+   "id": "R0005607",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 104
+  },
+  {
+   "id": "R0013154",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 222
+  },
+  {
+   "id": "R0119078",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1244
+  },
+  {
+   "id": "R0117301",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1198
+  },
+  {
+   "id": "R0052170",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1008
+  },
+  {
+   "id": "R0051717",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 999
+  },
+  {
+   "id": "R0044511",
+   "episode_id": "stream:[CREDENTIAL 184]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0114805",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1130
+  },
+  {
+   "id": "R0022411",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 462
+  },
+  {
+   "id": "R0036677",
+   "episode_id": "stream:[CREDENTIAL 1224]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0009325",
+   "episode_id": "stream:[CREDENTIAL 419]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0119906",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1272
+  },
+  {
+   "id": "R0126657",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1465
+  },
+  {
+   "id": "R0045968",
+   "episode_id": "stream:[CREDENTIAL 2094]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0002383",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 20
+  },
+  {
+   "id": "R0035688",
+   "episode_id": "stream:[CREDENTIAL 736]",
+   "turn_index": 2
+  },
+  {
+   "id": "R0139592",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1855
+  },
+  {
+   "id": "R0019076",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 46
+  },
+  {
+   "id": "R0041111",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 827
+  },
+  {
+   "id": "R0137619",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1789
+  },
+  {
+   "id": "R0012321",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 203
+  },
+  {
+   "id": "R0030571",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 122
+  },
+  {
+   "id": "R0018537",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 371
+  },
+  {
+   "id": "R0046835",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 928
+  },
+  {
+   "id": "R0023324",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 474
+  },
+  {
+   "id": "R0047039",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 932
+  },
+  {
+   "id": "R0144273",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 2011
+  },
+  {
+   "id": "R0135849",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1739
+  },
+  {
+   "id": "R0042298",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 855
+  },
+  {
+   "id": "R0030388",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 613
+  },
+  {
+   "id": "R0079267",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1040
+  },
+  {
+   "id": "R0000227",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 2
+  },
+  {
+   "id": "R0053054",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1025
+  },
+  {
+   "id": "R0130375",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1586
+  },
+  {
+   "id": "R0010314",
+   "episode_id": "stream:[CREDENTIAL 582]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0118042",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1214
+  },
+  {
+   "id": "R0028571",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 62
+  },
+  {
+   "id": "R0040423",
+   "episode_id": "stream:[CREDENTIAL 1623]",
+   "turn_index": 2
+  },
+  {
+   "id": "R0147222",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 2096
+  },
+  {
+   "id": "R0019386",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 387
+  },
+  {
+   "id": "R0034933",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 78
+  },
+  {
+   "id": "R0145280",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 2037
+  },
+  {
+   "id": "R0016172",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 305
+  },
+  {
+   "id": "R0080216",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 174
+  },
+  {
+   "id": "R0139902",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1874
+  },
+  {
+   "id": "R0011841",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 194
+  },
+  {
+   "id": "R0049994",
+   "episode_id": "stream:[CREDENTIAL 2352]",
+   "turn_index": 2
+  },
+  {
+   "id": "R0025423",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 511
+  },
+  {
+   "id": "R0137270",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1777
+  },
+  {
+   "id": "R0129340",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1552
+  },
+  {
+   "id": "R0019585",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 393
+  },
+  {
+   "id": "R0024955",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 28
+  },
+  {
+   "id": "R0027426",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 558
+  },
+  {
+   "id": "R0016465",
+   "episode_id": "stream:[CREDENTIAL 15]",
+   "turn_index": 34
+  },
+  {
+   "id": "R0132048",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1627
+  },
+  {
+   "id": "R0040080",
+   "episode_id": "stream:[REDACTED:runtime_identifier:000003]",
+   "turn_index": 6
+  },
+  {
+   "id": "R0020483",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 13
+  },
+  {
+   "id": "R0120529",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1291
+  },
+  {
+   "id": "R0016410",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 308
+  },
+  {
+   "id": "R0018184",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 359
+  },
+  {
+   "id": "R0138130",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1807
+  },
+  {
+   "id": "R0118013",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1213
+  },
+  {
+   "id": "R0144043",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 2003
+  },
+  {
+   "id": "R0010679",
+   "episode_id": "stream:[CREDENTIAL 611]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0123619",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1378
+  },
+  {
+   "id": "R0126696",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1468
+  },
+  {
+   "id": "R0038728",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 775
+  },
+  {
+   "id": "R0043946",
+   "episode_id": "stream:[CREDENTIAL 1]",
+   "turn_index": 30
+  },
+  {
+   "id": "R0138193",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1810
+  },
+  {
+   "id": "R0140025",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1881
+  },
+  {
+   "id": "R0116832",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1189
+  },
+  {
+   "id": "R0017024",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 33
+  },
+  {
+   "id": "R0048197",
+   "episode_id": "stream:[CREDENTIAL 2466]",
+   "turn_index": 1
+  },
+  {
+   "id": "R0141836",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1942
+  },
+  {
+   "id": "R0014246",
+   "episode_id": "stream:[CREDENTIAL 220]",
+   "turn_index": 30
+  },
+  {
+   "id": "R0034313",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 125
+  },
+  {
+   "id": "R0032721",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 647
+  },
+  {
+   "id": "R0005407",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 98
+  },
+  {
+   "id": "R0029882",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 604
+  },
+  {
+   "id": "R0113060",
+   "episode_id": "stream:[CREDENTIAL 3536]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0008094",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 3
+  },
+  {
+   "id": "R0023148",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 472
+  },
+  {
+   "id": "R0145574",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 2047
+  },
+  {
+   "id": "R0116357",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1172
+  },
+  {
+   "id": "R0033078",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 653
+  },
+  {
+   "id": "R0018903",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 93
+  },
+  {
+   "id": "R0147038",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 2090
+  },
+  {
+   "id": "R0122451",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1346
+  },
+  {
+   "id": "R0037585",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 128
+  },
+  {
+   "id": "R0033242",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 64
+  },
+  {
+   "id": "R0127857",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1503
+  },
+  {
+   "id": "R0130882",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1596
+  },
+  {
+   "id": "R0020201",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 408
+  },
+  {
+   "id": "R0034207",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 683
+  },
+  {
+   "id": "R0140717",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1905
+  },
+  {
+   "id": "R0002233",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 37
+  },
+  {
+   "id": "R0021258",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 438
+  },
+  {
+   "id": "R0046727",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 927
+  },
+  {
+   "id": "R0014847",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 269
+  },
+  {
+   "id": "R0018955",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 7
+  },
+  {
+   "id": "R0050889",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 986
+  },
+  {
+   "id": "R0050253",
+   "episode_id": "stream:[CREDENTIAL 2466]",
+   "turn_index": 11
+  },
+  {
+   "id": "R0004524",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 76
+  },
+  {
+   "id": "R0022284",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 458
+  },
+  {
+   "id": "R0128180",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1514
+  },
+  {
+   "id": "R0022654",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 465
+  },
+  {
+   "id": "R0119413",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1252
+  },
+  {
+   "id": "R0116747",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1184
+  },
+  {
+   "id": "R0019982",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 402
+  },
+  {
+   "id": "R0134954",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1720
+  },
+  {
+   "id": "R0012436",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 205
+  },
+  {
+   "id": "R0015574",
+   "episode_id": "stream:[CREDENTIAL 222]",
+   "turn_index": 1
+  },
+  {
+   "id": "R0080184",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1060
+  },
+  {
+   "id": "R0046058",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 139
+  },
+  {
+   "id": "R0023869",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 483
+  },
+  {
+   "id": "R0133167",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1664
+  },
+  {
+   "id": "R0044142",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 104
+  },
+  {
+   "id": "R0079570",
+   "episode_id": "stream:[CREDENTIAL 2961]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0079134",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1036
+  },
+  {
+   "id": "R0028085",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 572
+  },
+  {
+   "id": "R0123571",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1374
+  },
+  {
+   "id": "R0021759",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 19
+  },
+  {
+   "id": "R0020306",
+   "episode_id": "stream:[CREDENTIAL 220]",
+   "turn_index": 41
+  },
+  {
+   "id": "R0126187",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1448
+  },
+  {
+   "id": "R0128563",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1527
+  },
+  {
+   "id": "R0000576",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 9
+  },
+  {
+   "id": "R0042408",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 860
+  },
+  {
+   "id": "R0132431",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1636
+  },
+  {
+   "id": "R0037888",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 762
+  },
+  {
+   "id": "R0053179",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1029
+  },
+  {
+   "id": "R0138786",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1834
+  },
+  {
+   "id": "R0134570",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1702
+  },
+  {
+   "id": "R0133957",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1683
+  },
+  {
+   "id": "R0029152",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 64
+  },
+  {
+   "id": "R0010762",
+   "episode_id": "stream:[CREDENTIAL 624]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0123385",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1365
+  },
+  {
+   "id": "R0139236",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1850
+  },
+  {
+   "id": "R0121355",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1318
+  },
+  {
+   "id": "R0036077",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 718
+  },
+  {
+   "id": "R0040312",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 804
+  },
+  {
+   "id": "R0114622",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1119
+  },
+  {
+   "id": "R0137481",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1786
+  },
+  {
+   "id": "R0005839",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 115
+  },
+  {
+   "id": "R0020566",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 413
+  },
+  {
+   "id": "R0026474",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 542
+  },
+  {
+   "id": "R0016893",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 325
+  },
+  {
+   "id": "R0006874",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 135
+  },
+  {
+   "id": "R0032634",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 642
+  },
+  {
+   "id": "R0131310",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1613
+  },
+  {
+   "id": "R0113871",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 113
+  },
+  {
+   "id": "R0080098",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1057
+  },
+  {
+   "id": "R0081096",
+   "episode_id": "stream:[CREDENTIAL 1]",
+   "turn_index": 36
+  },
+  {
+   "id": "R0125239",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1423
+  },
+  {
+   "id": "R0080340",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 175
+  },
+  {
+   "id": "R0134097",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1685
+  },
+  {
+   "id": "R0047983",
+   "episode_id": "stream:[CREDENTIAL 1723]",
+   "turn_index": 2
+  },
+  {
+   "id": "R0012655",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 69
+  },
+  {
+   "id": "R0006165",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 43
+  },
+  {
+   "id": "R0044449",
+   "episode_id": "stream:[CREDENTIAL 1334]",
+   "turn_index": 2
+  },
+  {
+   "id": "R0022802",
+   "episode_id": "stream:[CREDENTIAL 220]",
+   "turn_index": 44
+  },
+  {
+   "id": "R0135304",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1728
+  },
+  {
+   "id": "R0040317",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 805
+  },
+  {
+   "id": "R0014999",
+   "episode_id": "stream:[CREDENTIAL 220]",
+   "turn_index": 32
+  },
+  {
+   "id": "R0017287",
+   "episode_id": "stream:[CREDENTIAL 220]",
+   "turn_index": 36
+  },
+  {
+   "id": "R0021048",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 51
+  },
+  {
+   "id": "R0042925",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 89
+  },
+  {
+   "id": "R0041425",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 833
+  },
+  {
+   "id": "R0024141",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 487
+  },
+  {
+   "id": "R0042510",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 861
+  },
+  {
+   "id": "R0115099",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1135
+  },
+  {
+   "id": "R0049792",
+   "episode_id": "stream:[CREDENTIAL 2111]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0126130",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1446
+  },
+  {
+   "id": "R0050850",
+   "episode_id": "stream:[CREDENTIAL 2831]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0033158",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 62
+  },
+  {
+   "id": "R0126850",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1476
+  },
+  {
+   "id": "R0036688",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 734
+  },
+  {
+   "id": "R0043566",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 102
+  },
+  {
+   "id": "R0008438",
+   "episode_id": "stream:[CREDENTIAL 220]",
+   "turn_index": 9
+  },
+  {
+   "id": "R0010064",
+   "episode_id": "stream:[CREDENTIAL 220]",
+   "turn_index": 21
+  },
+  {
+   "id": "R0018859",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 377
+  },
+  {
+   "id": "R0049973",
+   "episode_id": "stream:[CREDENTIAL 2495]",
+   "turn_index": 2
+  },
+  {
+   "id": "R0005861",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 116
+  },
+  {
+   "id": "R0130966",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1598
+  },
+  {
+   "id": "R0140643",
+   "episode_id": "stream:agent:payload",
+   "turn_index": 1901
+  },
+  {
+   "id": "R0103407",
+   "episode_id": "stream:[REDACTED:runtime_identifier:000001]",
+   "turn_index": 11
+  },
+  {
+   "id": "R0184345",
+   "episode_id": "dag:R0135097",
+   "turn_index": 0
+  },
+  {
+   "id": "R0070468",
+   "episode_id": "dag:R0026581",
+   "turn_index": 0
+  },
+  {
+   "id": "R0072422",
+   "episode_id": "dag:R0033554",
+   "turn_index": 0
+  },
+  {
+   "id": "R0160322",
+   "episode_id": "dag:R0144155",
+   "turn_index": 0
+  },
+  {
+   "id": "R0075883",
+   "episode_id": "dag:R0044006",
+   "turn_index": 0
+  },
+  {
+   "id": "R0162670",
+   "episode_id": "dag:R0144637",
+   "turn_index": 0
+  },
+  {
+   "id": "R0181391",
+   "episode_id": "dag:R0120162",
+   "turn_index": 0
+  },
+  {
+   "id": "R0092755",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 271
+  },
+  {
+   "id": "R0097585",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 372
+  },
+  {
+   "id": "R0182028",
+   "episode_id": "dag:R0139699",
+   "turn_index": 0
+  },
+  {
+   "id": "R0107189",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 588
+  },
+  {
+   "id": "R0164559",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 692
+  },
+  {
+   "id": "R0110001",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 396
+  },
+  {
+   "id": "R0094694",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 307
+  },
+  {
+   "id": "R0181118",
+   "episode_id": "dag:R0136139",
+   "turn_index": 0
+  },
+  {
+   "id": "R0169358",
+   "episode_id": "dag:R0128369",
+   "turn_index": 0
+  },
+  {
+   "id": "R0069850",
+   "episode_id": "dag:R0024455",
+   "turn_index": 19
+  },
+  {
+   "id": "R0163522",
+   "episode_id": "dag:R0138069",
+   "turn_index": 0
+  },
+  {
+   "id": "R0095497",
+   "episode_id": "stream:[CREDENTIAL 15]",
+   "turn_index": 54
+  },
+  {
+   "id": "R0166142",
+   "episode_id": "dag:R0128905",
+   "turn_index": 0
+  },
+  {
+   "id": "R0174019",
+   "episode_id": "dag:R0139094",
+   "turn_index": 0
+  },
+  {
+   "id": "R0162315",
+   "episode_id": "dag:R0113686",
+   "turn_index": 0
+  },
+  {
+   "id": "R0167112",
+   "episode_id": "dag:R0144235",
+   "turn_index": 0
+  },
+  {
+   "id": "R0104498",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 524
+  },
+  {
+   "id": "R0096817",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 353
+  },
+  {
+   "id": "R0074697",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 54
+  },
+  {
+   "id": "R0076849",
+   "episode_id": "dag:R0048333",
+   "turn_index": 1
+  },
+  {
+   "id": "R0098425",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 396
+  },
+  {
+   "id": "R0065032",
+   "episode_id": "dag:R0007053",
+   "turn_index": 0
+  },
+  {
+   "id": "R0185833",
+   "episode_id": "dag:R0079005",
+   "turn_index": 0
+  },
+  {
+   "id": "R0172150",
+   "episode_id": "dag:R0130297",
+   "turn_index": 0
+  },
+  {
+   "id": "R0070828",
+   "episode_id": "dag:R0028074",
+   "turn_index": 0
+  },
+  {
+   "id": "R0076699",
+   "episode_id": "dag:R0047842",
+   "turn_index": 0
+  },
+  {
+   "id": "R0189430",
+   "episode_id": "dag:R0127730",
+   "turn_index": 0
+  },
+  {
+   "id": "R0177128",
+   "episode_id": "dag:R0134845",
+   "turn_index": 0
+  },
+  {
+   "id": "R0187436",
+   "episode_id": "dag:R0124364",
+   "turn_index": 0
+  },
+  {
+   "id": "R0076980",
+   "episode_id": "stream:[CREDENTIAL 2571]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0084403",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 198
+  },
+  {
+   "id": "R0107649",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 597
+  },
+  {
+   "id": "R0077031",
+   "episode_id": "dag:R0049056",
+   "turn_index": 1
+  },
+  {
+   "id": "R0176191",
+   "episode_id": "dag:R0118915",
+   "turn_index": 1
+  },
+  {
+   "id": "R0067870",
+   "episode_id": "dag:R0017869",
+   "turn_index": 0
+  },
+  {
+   "id": "R0181877",
+   "episode_id": "dag:R0144472",
+   "turn_index": 0
+  },
+  {
+   "id": "R0180420",
+   "episode_id": "dag:R0142408",
+   "turn_index": 0
+  },
+  {
+   "id": "R0174901",
+   "episode_id": "dag:R0143120",
+   "turn_index": 0
+  },
+  {
+   "id": "R0089477",
+   "episode_id": "stream:[REDACTED:runtime_identifier:000001]",
+   "turn_index": 6
+  },
+  {
+   "id": "R0070937",
+   "episode_id": "dag:R0028572",
+   "turn_index": 0
+  },
+  {
+   "id": "R0075997",
+   "episode_id": "dag:R0044683",
+   "turn_index": 0
+  },
+  {
+   "id": "R0097184",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 362
+  },
+  {
+   "id": "R0105144",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 355
+  },
+  {
+   "id": "R0097128",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 360
+  },
+  {
+   "id": "R0180097",
+   "episode_id": "dag:R0142016",
+   "turn_index": 0
+  },
+  {
+   "id": "R0182654",
+   "episode_id": "dag:R0118467",
+   "turn_index": 0
+  },
+  {
+   "id": "R0166414",
+   "episode_id": "dag:R0131949",
+   "turn_index": 0
+  },
+  {
+   "id": "R0180398",
+   "episode_id": "dag:R0079394",
+   "turn_index": 0
+  },
+  {
+   "id": "R0163600",
+   "episode_id": "dag:R0119113",
+   "turn_index": 0
+  },
+  {
+   "id": "R0170333",
+   "episode_id": "dag:R0123302",
+   "turn_index": 0
+  },
+  {
+   "id": "R0174605",
+   "episode_id": "dag:R0146390",
+   "turn_index": 0
+  },
+  {
+   "id": "R0097882",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 300
+  },
+  {
+   "id": "R0070813",
+   "episode_id": "dag:R0028049",
+   "turn_index": 0
+  },
+  {
+   "id": "R0087418",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 218
+  },
+  {
+   "id": "R0106566",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 576
+  },
+  {
+   "id": "R0066478",
+   "episode_id": "dag:R0011467",
+   "turn_index": 1
+  },
+  {
+   "id": "R0068095",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 14
+  },
+  {
+   "id": "R0104308",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 519
+  },
+  {
+   "id": "R0086428",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 138
+  },
+  {
+   "id": "R0166928",
+   "episode_id": "dag:R0127646",
+   "turn_index": 0
+  },
+  {
+   "id": "R0085662",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 110
+  },
+  {
+   "id": "R0062776",
+   "episode_id": "dag:R0000985",
+   "turn_index": 0
+  },
+  {
+   "id": "R0099315",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 418
+  },
+  {
+   "id": "R0182478",
+   "episode_id": "dag:R0132441",
+   "turn_index": 0
+  },
+  {
+   "id": "R0089298",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 196
+  },
+  {
+   "id": "R0099152",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 309
+  },
+  {
+   "id": "R0168616",
+   "episode_id": "dag:R0137602",
+   "turn_index": 0
+  },
+  {
+   "id": "R0064360",
+   "episode_id": "dag:R0005886",
+   "turn_index": 0
+  },
+  {
+   "id": "R0110866",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 661
+  },
+  {
+   "id": "R0162045",
+   "episode_id": "dag:R0135471",
+   "turn_index": 0
+  },
+  {
+   "id": "R0084944",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 111
+  },
+  {
+   "id": "R0181934",
+   "episode_id": "dag:R0116868",
+   "turn_index": 0
+  },
+  {
+   "id": "R0100337",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 318
+  },
+  {
+   "id": "R0185672",
+   "episode_id": "dag:R0127851",
+   "turn_index": 0
+  },
+  {
+   "id": "R0110208",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 398
+  },
+  {
+   "id": "R0168108",
+   "episode_id": "dag:R0129782",
+   "turn_index": 0
+  },
+  {
+   "id": "R0189443",
+   "episode_id": "dag:R0113184",
+   "turn_index": 0
+  },
+  {
+   "id": "R0182508",
+   "episode_id": "dag:R0116465",
+   "turn_index": 0
+  },
+  {
+   "id": "R0105674",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 359
+  },
+  {
+   "id": "R0106616",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 577
+  },
+  {
+   "id": "R0065889",
+   "episode_id": "dag:R0008240",
+   "turn_index": 0
+  },
+  {
+   "id": "R0105164",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 545
+  },
+  {
+   "id": "R0176400",
+   "episode_id": "dag:R0137790",
+   "turn_index": 0
+  },
+  {
+   "id": "R0075042",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 57
+  },
+  {
+   "id": "R0088226",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 173
+  },
+  {
+   "id": "R0168638",
+   "episode_id": "dag:R0126696",
+   "turn_index": 0
+  },
+  {
+   "id": "R0063454",
+   "episode_id": "dag:R0003033",
+   "turn_index": 0
+  },
+  {
+   "id": "R0094746",
+   "episode_id": "stream:[CREDENTIAL 3252]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0107734",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 599
+  },
+  {
+   "id": "R0182245",
+   "episode_id": "dag:R0129973",
+   "turn_index": 0
+  },
+  {
+   "id": "R0075690",
+   "episode_id": "dag:R0043462",
+   "turn_index": 0
+  },
+  {
+   "id": "R0063948",
+   "episode_id": "dag:R0004765",
+   "turn_index": 0
+  },
+  {
+   "id": "R0087102",
+   "episode_id": "stream:[CREDENTIAL 21]",
+   "turn_index": 1
+  },
+  {
+   "id": "R0088551",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 181
+  },
+  {
+   "id": "R0098163",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 305
+  },
+  {
+   "id": "R0169959",
+   "episode_id": "dag:R0142118",
+   "turn_index": 0
+  },
+  {
+   "id": "R0088539",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 180
+  },
+  {
+   "id": "R0110802",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 660
+  },
+  {
+   "id": "R0187800",
+   "episode_id": "dag:R0142767",
+   "turn_index": 0
+  },
+  {
+   "id": "R0071085",
+   "episode_id": "dag:R0028893",
+   "turn_index": 0
+  },
+  {
+   "id": "R0092767",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 260
+  },
+  {
+   "id": "R0089654",
+   "episode_id": "stream:[CREDENTIAL 1]",
+   "turn_index": 40
+  },
+  {
+   "id": "R0165210",
+   "episode_id": "dag:R0121523",
+   "turn_index": 0
+  },
+  {
+   "id": "R0110107",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 645
+  },
+  {
+   "id": "R0182499",
+   "episode_id": "dag:R0140231",
+   "turn_index": 0
+  },
+  {
+   "id": "R0068504",
+   "episode_id": "dag:R0020105",
+   "turn_index": 0
+  },
+  {
+   "id": "R0184885",
+   "episode_id": "dag:R0116945",
+   "turn_index": 0
+  },
+  {
+   "id": "R0189519",
+   "episode_id": "dag:R0133536",
+   "turn_index": 0
+  },
+  {
+   "id": "R0095154",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 314
+  },
+  {
+   "id": "R0076596",
+   "episode_id": "dag:R0047278",
+   "turn_index": 0
+  },
+  {
+   "id": "R0166573",
+   "episode_id": "dag:R0128586",
+   "turn_index": 0
+  },
+  {
+   "id": "R0070693",
+   "episode_id": "dag:R0027627",
+   "turn_index": 0
+  },
+  {
+   "id": "R0072896",
+   "episode_id": "dag:R0035128",
+   "turn_index": 0
+  },
+  {
+   "id": "R0088080",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 222
+  },
+  {
+   "id": "R0100169",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 317
+  },
+  {
+   "id": "R0083852",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 95
+  },
+  {
+   "id": "R0173463",
+   "episode_id": "dag:R0118118",
+   "turn_index": 0
+  },
+  {
+   "id": "R0111120",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 666
+  },
+  {
+   "id": "R0188195",
+   "episode_id": "dag:R0142555",
+   "turn_index": 0
+  },
+  {
+   "id": "R0091867",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 251
+  },
+  {
+   "id": "R0175932",
+   "episode_id": "dag:R0142438",
+   "turn_index": 0
+  },
+  {
+   "id": "R0171039",
+   "episode_id": "dag:R0146676",
+   "turn_index": 0
+  },
+  {
+   "id": "R0172810",
+   "episode_id": "dag:R0128853",
+   "turn_index": 0
+  },
+  {
+   "id": "R0062842",
+   "episode_id": "dag:R0001098",
+   "turn_index": 1
+  },
+  {
+   "id": "R0104480",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 121
+  },
+  {
+   "id": "R0104225",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 346
+  },
+  {
+   "id": "R0183481",
+   "episode_id": "dag:R0081085",
+   "turn_index": 0
+  },
+  {
+   "id": "R0159371",
+   "episode_id": "dag:R0113669",
+   "turn_index": 0
+  },
+  {
+   "id": "R0179314",
+   "episode_id": "dag:R0126857",
+   "turn_index": 0
+  },
+  {
+   "id": "R0109387",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 389
+  },
+  {
+   "id": "R0189175",
+   "episode_id": "dag:R0136263",
+   "turn_index": 0
+  },
+  {
+   "id": "R0063396",
+   "episode_id": "dag:R0002925",
+   "turn_index": 0
+  },
+  {
+   "id": "R0112256",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 413
+  },
+  {
+   "id": "R0179824",
+   "episode_id": "dag:R0116480",
+   "turn_index": 1
+  },
+  {
+   "id": "R0063076",
+   "episode_id": "dag:R0001693",
+   "turn_index": 0
+  },
+  {
+   "id": "R0102192",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 476
+  },
+  {
+   "id": "R0168016",
+   "episode_id": "dag:R0140981",
+   "turn_index": 0
+  },
+  {
+   "id": "R0179433",
+   "episode_id": "dag:R0130151",
+   "turn_index": 0
+  },
+  {
+   "id": "R0111621",
+   "episode_id": "stream:[CREDENTIAL 15]",
+   "turn_index": 63
+  },
+  {
+   "id": "R0177045",
+   "episode_id": "dag:R0079220",
+   "turn_index": 0
+  },
+  {
+   "id": "R0111232",
+   "episode_id": "stream:[CREDENTIAL 3495]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0167130",
+   "episode_id": "dag:R0141646",
+   "turn_index": 0
+  },
+  {
+   "id": "R0104536",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 526
+  },
+  {
+   "id": "R0165572",
+   "episode_id": "dag:R0137030",
+   "turn_index": 0
+  },
+  {
+   "id": "R0091823",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 252
+  },
+  {
+   "id": "R0162655",
+   "episode_id": "dag:R0079070",
+   "turn_index": 0
+  },
+  {
+   "id": "R0184830",
+   "episode_id": "dag:R0080181",
+   "turn_index": 0
+  },
+  {
+   "id": "R0108186",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 381
+  },
+  {
+   "id": "R0084030",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 97
+  },
+  {
+   "id": "R0097146",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 361
+  },
+  {
+   "id": "R0070575",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 28
+  },
+  {
+   "id": "R0076635",
+   "episode_id": "dag:R0047615",
+   "turn_index": 0
+  },
+  {
+   "id": "R0105845",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 558
+  },
+  {
+   "id": "R0107392",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 594
+  },
+  {
+   "id": "R0093007",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 279
+  },
+  {
+   "id": "R0169021",
+   "episode_id": "dag:R0138649",
+   "turn_index": 0
+  },
+  {
+   "id": "R0171828",
+   "episode_id": "dag:R0141081",
+   "turn_index": 0
+  },
+  {
+   "id": "R0077273",
+   "episode_id": "dag:R0049691",
+   "turn_index": 0
+  },
+  {
+   "id": "R0099935",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 428
+  },
+  {
+   "id": "R0178328",
+   "episode_id": "dag:R0141821",
+   "turn_index": 0
+  },
+  {
+   "id": "R0095610",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 323
+  },
+  {
+   "id": "R0171371",
+   "episode_id": "dag:R0126950",
+   "turn_index": 0
+  },
+  {
+   "id": "R0183036",
+   "episode_id": "dag:R0136179",
+   "turn_index": 0
+  },
+  {
+   "id": "R0092422",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 261
+  },
+  {
+   "id": "R0187787",
+   "episode_id": "dag:R0118425",
+   "turn_index": 0
+  },
+  {
+   "id": "R0077942",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 84
+  },
+  {
+   "id": "R0182384",
+   "episode_id": "dag:R0138748",
+   "turn_index": 0
+  },
+  {
+   "id": "R0086719",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 144
+  },
+  {
+   "id": "R0104504",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 525
+  },
+  {
+   "id": "R0173248",
+   "episode_id": "dag:R0116489",
+   "turn_index": 0
+  },
+  {
+   "id": "R0160829",
+   "episode_id": "dag:R0118546",
+   "turn_index": 0
+  },
+  {
+   "id": "R0094911",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 309
+  },
+  {
+   "id": "R0072068",
+   "episode_id": "dag:R0032199",
+   "turn_index": 0
+  },
+  {
+   "id": "R0069489",
+   "episode_id": "dag:R0024044",
+   "turn_index": 0
+  },
+  {
+   "id": "R0064453",
+   "episode_id": "dag:R0006047",
+   "turn_index": 0
+  },
+  {
+   "id": "R0186798",
+   "episode_id": "dag:R0146071",
+   "turn_index": 0
+  },
+  {
+   "id": "R0167019",
+   "episode_id": "dag:R0079113",
+   "turn_index": 0
+  },
+  {
+   "id": "R0184273",
+   "episode_id": "dag:R0138530",
+   "turn_index": 0
+  },
+  {
+   "id": "R0084437",
+   "episode_id": "stream:[CREDENTIAL 1623]",
+   "turn_index": 8
+  },
+  {
+   "id": "R0183930",
+   "episode_id": "dag:R0116469",
+   "turn_index": 2
+  },
+  {
+   "id": "R0177979",
+   "episode_id": "dag:R0130304",
+   "turn_index": 0
+  },
+  {
+   "id": "R0183549",
+   "episode_id": "dag:R0118432",
+   "turn_index": 2
+  },
+  {
+   "id": "R0067410",
+   "episode_id": "dag:R0016458",
+   "turn_index": 0
+  },
+  {
+   "id": "R0161150",
+   "episode_id": "dag:R0144536",
+   "turn_index": 0
+  },
+  {
+   "id": "R0097115",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 359
+  },
+  {
+   "id": "R0096358",
+   "episode_id": "stream:[CREDENTIAL 815]",
+   "turn_index": 1
+  },
+  {
+   "id": "R0188866",
+   "episode_id": "dag:R0132396",
+   "turn_index": 0
+  },
+  {
+   "id": "R0182467",
+   "episode_id": "dag:R0132258",
+   "turn_index": 0
+  },
+  {
+   "id": "R0175841",
+   "episode_id": "dag:R0128015",
+   "turn_index": 0
+  },
+  {
+   "id": "R0066947",
+   "episode_id": "dag:R0013968",
+   "turn_index": 0
+  },
+  {
+   "id": "R0090440",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 226
+  },
+  {
+   "id": "R0164176",
+   "episode_id": "dag:R0079108",
+   "turn_index": 0
+  },
+  {
+   "id": "R0100381",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 320
+  },
+  {
+   "id": "R0109005",
+   "episode_id": "stream:[CREDENTIAL 18]",
+   "turn_index": 2
+  },
+  {
+   "id": "R0107233",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 589
+  },
+  {
+   "id": "R0179273",
+   "episode_id": "dag:R0124689",
+   "turn_index": 0
+  },
+  {
+   "id": "R0096380",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 340
+  },
+  {
+   "id": "R0096276",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 335
+  },
+  {
+   "id": "R0087476",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 160
+  },
+  {
+   "id": "R0086730",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 146
+  },
+  {
+   "id": "R0098958",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 409
+  },
+  {
+   "id": "R0164005",
+   "episode_id": "dag:R0080291",
+   "turn_index": 0
+  },
+  {
+   "id": "R0067728",
+   "episode_id": "dag:R0017443",
+   "turn_index": 1
+  },
+  {
+   "id": "R0161441",
+   "episode_id": "dag:R0079063",
+   "turn_index": 0
+  },
+  {
+   "id": "R0182592",
+   "episode_id": "dag:R0134837",
+   "turn_index": 0
+  },
+  {
+   "id": "R0074082",
+   "episode_id": "dag:R0038340",
+   "turn_index": 0
+  },
+  {
+   "id": "R0071389",
+   "episode_id": "dag:R0029680",
+   "turn_index": 0
+  },
+  {
+   "id": "R0176334",
+   "episode_id": "dag:R0079312",
+   "turn_index": 1
+  },
+  {
+   "id": "R0070459",
+   "episode_id": "dag:R0026539",
+   "turn_index": 0
+  },
+  {
+   "id": "R0096525",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 343
+  },
+  {
+   "id": "R0169272",
+   "episode_id": "dag:R0117227",
+   "turn_index": 0
+  },
+  {
+   "id": "R0171711",
+   "episode_id": "dag:R0139103",
+   "turn_index": 0
+  },
+  {
+   "id": "R0111423",
+   "episode_id": "stream:[CREDENTIAL 15]",
+   "turn_index": 62
+  },
+  {
+   "id": "R0160472",
+   "episode_id": "dag:R0142260",
+   "turn_index": 0
+  },
+  {
+   "id": "R0099851",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 426
+  },
+  {
+   "id": "R0166051",
+   "episode_id": "dag:R0131823",
+   "turn_index": 0
+  },
+  {
+   "id": "R0182585",
+   "episode_id": "dag:R0117429",
+   "turn_index": 0
+  },
+  {
+   "id": "R0093993",
+   "episode_id": "stream:[CREDENTIAL 3031]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0090141",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 219
+  },
+  {
+   "id": "R0100274",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 436
+  },
+  {
+   "id": "R0174984",
+   "episode_id": "dag:R0118325",
+   "turn_index": 0
+  },
+  {
+   "id": "R0076475",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 70
+  },
+  {
+   "id": "R0111281",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 668
+  },
+  {
+   "id": "R0173900",
+   "episode_id": "dag:R0141405",
+   "turn_index": 0
+  },
+  {
+   "id": "R0165213",
+   "episode_id": "dag:R0141072",
+   "turn_index": 0
+  },
+  {
+   "id": "R0100796",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 448
+  },
+  {
+   "id": "R0091976",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 253
+  },
+  {
+   "id": "R0103169",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 495
+  },
+  {
+   "id": "R0175923",
+   "episode_id": "dag:R0138811",
+   "turn_index": 0
+  },
+  {
+   "id": "R0111497",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 408
+  },
+  {
+   "id": "R0181890",
+   "episode_id": "dag:R0132571",
+   "turn_index": 0
+  },
+  {
+   "id": "R0180567",
+   "episode_id": "dag:R0132954",
+   "turn_index": 0
+  },
+  {
+   "id": "R0090672",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 229
+  },
+  {
+   "id": "R0072945",
+   "episode_id": "dag:R0035254",
+   "turn_index": 0
+  },
+  {
+   "id": "R0062951",
+   "episode_id": "dag:R0001390",
+   "turn_index": 0
+  },
+  {
+   "id": "R0073782",
+   "episode_id": "dag:R0037296",
+   "turn_index": 0
+  },
+  {
+   "id": "R0099055",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 412
+  },
+  {
+   "id": "R0096781",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 292
+  },
+  {
+   "id": "R0110552",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 655
+  },
+  {
+   "id": "R0167208",
+   "episode_id": "dag:R0079146",
+   "turn_index": 0
+  },
+  {
+   "id": "R0105238",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 547
+  },
+  {
+   "id": "R0072715",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 42
+  },
+  {
+   "id": "R0086331",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 136
+  },
+  {
+   "id": "R0077308",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 79
+  },
+  {
+   "id": "R0076600",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 71
+  },
+  {
+   "id": "R0187408",
+   "episode_id": "dag:R0113879",
+   "turn_index": 1
+  },
+  {
+   "id": "R0084285",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 100
+  },
+  {
+   "id": "R0174837",
+   "episode_id": "dag:R0143611",
+   "turn_index": 0
+  },
+  {
+   "id": "R0090608",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 241
+  },
+  {
+   "id": "R0066385",
+   "episode_id": "dag:R0010913",
+   "turn_index": 0
+  },
+  {
+   "id": "R0185283",
+   "episode_id": "dag:R0138746",
+   "turn_index": 0
+  },
+  {
+   "id": "R0097276",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 366
+  },
+  {
+   "id": "R0098017",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 117
+  },
+  {
+   "id": "R0098599",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 399
+  },
+  {
+   "id": "R0095402",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 318
+  },
+  {
+   "id": "R0176622",
+   "episode_id": "dag:R0118509",
+   "turn_index": 0
+  },
+  {
+   "id": "R0105335",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 550
+  },
+  {
+   "id": "R0095137",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 281
+  },
+  {
+   "id": "R0089765",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 234
+  },
+  {
+   "id": "R0104489",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 523
+  },
+  {
+   "id": "R0062936",
+   "episode_id": "dag:R0001339",
+   "turn_index": 0
+  },
+  {
+   "id": "R0075335",
+   "episode_id": "dag:R0042707",
+   "turn_index": 0
+  },
+  {
+   "id": "R0076452",
+   "episode_id": "stream:[CREDENTIAL 2250]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0171098",
+   "episode_id": "dag:R0079624",
+   "turn_index": 0
+  },
+  {
+   "id": "R0104606",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 531
+  },
+  {
+   "id": "R0109597",
+   "episode_id": "stream:[CREDENTIAL 15]",
+   "turn_index": 59
+  },
+  {
+   "id": "R0062708",
+   "episode_id": "dag:R0000831",
+   "turn_index": 0
+  },
+  {
+   "id": "R0163034",
+   "episode_id": "dag:R0113337",
+   "turn_index": 0
+  },
+  {
+   "id": "R0098009",
+   "episode_id": "stream:[CREDENTIAL 3011]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0074597",
+   "episode_id": "dag:R0040121",
+   "turn_index": 0
+  },
+  {
+   "id": "R0072550",
+   "episode_id": "dag:R0034044",
+   "turn_index": 0
+  },
+  {
+   "id": "R0102366",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 479
+  },
+  {
+   "id": "R0174530",
+   "episode_id": "dag:R0145791",
+   "turn_index": 0
+  },
+  {
+   "id": "R0182729",
+   "episode_id": "dag:R0117517",
+   "turn_index": 2
+  },
+  {
+   "id": "R0166935",
+   "episode_id": "dag:R0078994",
+   "turn_index": 0
+  },
+  {
+   "id": "R0182575",
+   "episode_id": "dag:R0118547",
+   "turn_index": 0
+  },
+  {
+   "id": "R0182397",
+   "episode_id": "dag:R0140999",
+   "turn_index": 0
+  },
+  {
+   "id": "R0072023",
+   "episode_id": "dag:R0031965",
+   "turn_index": 0
+  },
+  {
+   "id": "R0074250",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 49
+  },
+  {
+   "id": "R0091011",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 247
+  },
+  {
+   "id": "R0099568",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 313
+  },
+  {
+   "id": "R0091862",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 250
+  },
+  {
+   "id": "R0167564",
+   "episode_id": "dag:R0143735",
+   "turn_index": 0
+  },
+  {
+   "id": "R0099864",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 427
+  },
+  {
+   "id": "R0101777",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 464
+  },
+  {
+   "id": "R0189571",
+   "episode_id": "episode:article-evidence",
+   "turn_index": 0
+  },
+  {
+   "id": "R0076806",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 73
+  },
+  {
+   "id": "R0182665",
+   "episode_id": "dag:R0132652",
+   "turn_index": 0
+  },
+  {
+   "id": "R0175491",
+   "episode_id": "dag:R0135720",
+   "turn_index": 0
+  },
+  {
+   "id": "R0165099",
+   "episode_id": "dag:R0127681",
+   "turn_index": 0
+  },
+  {
+   "id": "R0073273",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 45
+  },
+  {
+   "id": "R0184772",
+   "episode_id": "dag:R0079136",
+   "turn_index": 2
+  },
+  {
+   "id": "R0179932",
+   "episode_id": "dag:R0130727",
+   "turn_index": 0
+  },
+  {
+   "id": "R0165746",
+   "episode_id": "dag:R0129230",
+   "turn_index": 0
+  },
+  {
+   "id": "R0183037",
+   "episode_id": "dag:R0130314",
+   "turn_index": 0
+  },
+  {
+   "id": "R0185017",
+   "episode_id": "dag:R0117914",
+   "turn_index": 3
+  },
+  {
+   "id": "R0189313",
+   "episode_id": "dag:R0130143",
+   "turn_index": 0
+  },
+  {
+   "id": "R0109956",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 395
+  },
+  {
+   "id": "R0185155",
+   "episode_id": "dag:R0117987",
+   "turn_index": 0
+  },
+  {
+   "id": "R0181092",
+   "episode_id": "dag:R0136358",
+   "turn_index": 0
+  },
+  {
+   "id": "R0089187",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 195
+  },
+  {
+   "id": "R0184086",
+   "episode_id": "dag:R0113696",
+   "turn_index": 0
+  },
+  {
+   "id": "R0101382",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 456
+  },
+  {
+   "id": "R0183928",
+   "episode_id": "dag:R0141486",
+   "turn_index": 0
+  },
+  {
+   "id": "R0096196",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 289
+  },
+  {
+   "id": "R0168573",
+   "episode_id": "dag:R0117377",
+   "turn_index": 0
+  },
+  {
+   "id": "R0162126",
+   "episode_id": "dag:R0113349",
+   "turn_index": 0
+  },
+  {
+   "id": "R0187210",
+   "episode_id": "dag:R0134415",
+   "turn_index": 0
+  },
+  {
+   "id": "R0067993",
+   "episode_id": "dag:R0018262",
+   "turn_index": 0
+  },
+  {
+   "id": "R0167647",
+   "episode_id": "dag:R0142431",
+   "turn_index": 0
+  },
+  {
+   "id": "R0161988",
+   "episode_id": "dag:R0116526",
+   "turn_index": 0
+  },
+  {
+   "id": "R0110300",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 399
+  },
+  {
+   "id": "R0166994",
+   "episode_id": "dag:R0136097",
+   "turn_index": 0
+  },
+  {
+   "id": "R0084524",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 105
+  },
+  {
+   "id": "R0092145",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 256
+  },
+  {
+   "id": "R0078090",
+   "episode_id": "dag:R0051549",
+   "turn_index": 0
+  },
+  {
+   "id": "R0098979",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 410
+  },
+  {
+   "id": "R0160570",
+   "episode_id": "dag:R0116818",
+   "turn_index": 0
+  },
+  {
+   "id": "R0100563",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 446
+  },
+  {
+   "id": "R0093420",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 287
+  },
+  {
+   "id": "R0161286",
+   "episode_id": "dag:R0118967",
+   "turn_index": 0
+  },
+  {
+   "id": "R0089392",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 202
+  },
+  {
+   "id": "R0075485",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 63
+  },
+  {
+   "id": "R0108418",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 605
+  },
+  {
+   "id": "R0103248",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 499
+  },
+  {
+   "id": "R0106054",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 564
+  },
+  {
+   "id": "R0093485",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 290
+  },
+  {
+   "id": "R0184394",
+   "episode_id": "dag:R0116625",
+   "turn_index": 0
+  },
+  {
+   "id": "R0111241",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 405
+  },
+  {
+   "id": "R0160363",
+   "episode_id": "dag:R0078985",
+   "turn_index": 1
+  },
+  {
+   "id": "R0160752",
+   "episode_id": "dag:R0121711",
+   "turn_index": 0
+  },
+  {
+   "id": "R0077402",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 170
+  },
+  {
+   "id": "R0092659",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 268
+  },
+  {
+   "id": "R0068041",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 13
+  },
+  {
+   "id": "R0090680",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 242
+  },
+  {
+   "id": "R0167674",
+   "episode_id": "dag:R0135757",
+   "turn_index": 0
+  },
+  {
+   "id": "R0101086",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 452
+  },
+  {
+   "id": "R0164281",
+   "episode_id": "dag:R0113764",
+   "turn_index": 1
+  },
+  {
+   "id": "R0189278",
+   "episode_id": "dag:R0080100",
+   "turn_index": 0
+  },
+  {
+   "id": "R0066669",
+   "episode_id": "dag:R0012645",
+   "turn_index": 0
+  },
+  {
+   "id": "R0075973",
+   "episode_id": "dag:R0044562",
+   "turn_index": 1
+  },
+  {
+   "id": "R0174344",
+   "episode_id": "dag:R0130701",
+   "turn_index": 0
+  },
+  {
+   "id": "R0188679",
+   "episode_id": "dag:R0136678",
+   "turn_index": 0
+  },
+  {
+   "id": "R0182106",
+   "episode_id": "dag:R0139744",
+   "turn_index": 0
+  },
+  {
+   "id": "R0100342",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 439
+  },
+  {
+   "id": "R0166600",
+   "episode_id": "dag:R0117517",
+   "turn_index": 1
+  },
+  {
+   "id": "R0071938",
+   "episode_id": "dag:R0031681",
+   "turn_index": 0
+  },
+  {
+   "id": "R0094651",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 306
+  },
+  {
+   "id": "R0104200",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 345
+  },
+  {
+   "id": "R0188956",
+   "episode_id": "dag:R0118834",
+   "turn_index": 0
+  },
+  {
+   "id": "R0183308",
+   "episode_id": "dag:R0118282",
+   "turn_index": 0
+  },
+  {
+   "id": "R0066966",
+   "episode_id": "dag:R0014035",
+   "turn_index": 0
+  },
+  {
+   "id": "R0075039",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 56
+  },
+  {
+   "id": "R0070705",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 29
+  },
+  {
+   "id": "R0164074",
+   "episode_id": "dag:R0138456",
+   "turn_index": 0
+  },
+  {
+   "id": "R0077724",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 82
+  },
+  {
+   "id": "R0077120",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 77
+  },
+  {
+   "id": "R0071232",
+   "episode_id": "dag:R0029307",
+   "turn_index": 0
+  },
+  {
+   "id": "R0086673",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 141
+  },
+  {
+   "id": "R0175951",
+   "episode_id": "dag:R0131600",
+   "turn_index": 0
+  },
+  {
+   "id": "R0094418",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 278
+  },
+  {
+   "id": "R0109586",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 635
+  },
+  {
+   "id": "R0109718",
+   "episode_id": "stream:[CREDENTIAL 169]",
+   "turn_index": 123
+  },
+  {
+   "id": "R0181813",
+   "episode_id": "dag:R0117637",
+   "turn_index": 0
+  },
+  {
+   "id": "R0070649",
+   "episode_id": "dag:R0027551",
+   "turn_index": 0
+  },
+  {
+   "id": "R0187988",
+   "episode_id": "dag:R0143041",
+   "turn_index": 0
+  },
+  {
+   "id": "R0166323",
+   "episode_id": "dag:R0143790",
+   "turn_index": 0
+  },
+  {
+   "id": "R0084997",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 112
+  },
+  {
+   "id": "R0089771",
+   "episode_id": "stream:[REDACTED:runtime_identifier:000001]",
+   "turn_index": 7
+  },
+  {
+   "id": "R0088168",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 223
+  },
+  {
+   "id": "R0167091",
+   "episode_id": "dag:R0143199",
+   "turn_index": 0
+  },
+  {
+   "id": "R0176301",
+   "episode_id": "dag:R0141463",
+   "turn_index": 0
+  },
+  {
+   "id": "R0170981",
+   "episode_id": "dag:R0079059",
+   "turn_index": 0
+  },
+  {
+   "id": "R0166533",
+   "episode_id": "dag:R0141615",
+   "turn_index": 0
+  },
+  {
+   "id": "R0095488",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 320
+  },
+  {
+   "id": "R0086413",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 137
+  },
+  {
+   "id": "R0168965",
+   "episode_id": "dag:R0143963",
+   "turn_index": 0
+  },
+  {
+   "id": "R0075190",
+   "episode_id": "dag:R0042291",
+   "turn_index": 0
+  },
+  {
+   "id": "R0094727",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 308
+  },
+  {
+   "id": "R0093835",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 297
+  },
+  {
+   "id": "R0163318",
+   "episode_id": "dag:R0129579",
+   "turn_index": 0
+  },
+  {
+   "id": "R0107358",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 591
+  },
+  {
+   "id": "R0064813",
+   "episode_id": "dag:R0006921",
+   "turn_index": 0
+  },
+  {
+   "id": "R0188364",
+   "episode_id": "dag:R0127673",
+   "turn_index": 0
+  },
+  {
+   "id": "R0095765",
+   "episode_id": "stream:[CREDENTIAL 170]",
+   "turn_index": 103
+  },
+  {
+   "id": "R0186882",
+   "episode_id": "dag:R0132220",
+   "turn_index": 0
+  },
+  {
+   "id": "R0092940",
+   "episode_id": "stream:agent:recovered_text",
+   "turn_index": 276
+  },
+  {
+   "id": "R0071377",
+   "episode_id": "dag:R0029676",
+   "turn_index": 0
+  },
+  {
+   "id": "R0160821",
+   "episode_id": "dag:R0079042",
+   "turn_index": 0
+  },
+  {
+   "id": "R0164722",
+   "episode_id": "dag:R0134463",
+   "turn_index": 0
+  },
+  {
+   "id": "R0181823",
+   "episode_id": "dag:R0138742",
+   "turn_index": 0
+  },
+  {
+   "id": "R0062480",
+   "episode_id": "dag:R0053349",
+   "turn_index": 0
+  },
+  {
+   "id": "R0149064",
+   "episode_id": "dag:R0113626",
+   "turn_index": 0
+  },
+  {
+   "id": "R0154065",
+   "episode_id": "dag:R0117453",
+   "turn_index": 0
+  },
+  {
+   "id": "R0058870",
+   "episode_id": "dag:R0030844",
+   "turn_index": 0
+  },
+  {
+   "id": "R0082903",
+   "episode_id": "stream:[CREDENTIAL 15]",
+   "turn_index": 49
+  },
+  {
+   "id": "R0159116",
+   "episode_id": "dag:R0124855",
+   "turn_index": 0
+  },
+  {
+   "id": "R0082888",
+   "episode_id": "stream:[CREDENTIAL 15]",
+   "turn_index": 48
+  },
+  {
+   "id": "R0151507",
+   "episode_id": "dag:R0116645",
+   "turn_index": 0
+  },
+  {
+   "id": "R0155637",
+   "episode_id": "dag:R0117991",
+   "turn_index": 0
+  },
+  {
+   "id": "R0155398",
+   "episode_id": "dag:R0117914",
+   "turn_index": 0
+  },
+  {
+   "id": "R0061490",
+   "episode_id": "dag:R0046236",
+   "turn_index": 0
+  },
+  {
+   "id": "R0158750",
+   "episode_id": "dag:R0080310",
+   "turn_index": 2
+  },
+  {
+   "id": "R0057101",
+   "episode_id": "dag:R0022163",
+   "turn_index": 0
+  },
+  {
+   "id": "R0149843",
+   "episode_id": "dag:R0079162",
+   "turn_index": 0
+  },
+  {
+   "id": "R0151648",
+   "episode_id": "dag:R0116684",
+   "turn_index": 0
+  },
+  {
+   "id": "R0083635",
+   "episode_id": "stream:agent:response",
+   "turn_index": 121
+  },
+  {
+   "id": "R0081816",
+   "episode_id": "stream:agent:response",
+   "turn_index": 83
+  },
+  {
+   "id": "R0147774",
+   "episode_id": "dag:R0113313",
+   "turn_index": 0
+  },
+  {
+   "id": "R0057582",
+   "episode_id": "dag:R0024455",
+   "turn_index": 3
+  },
+  {
+   "id": "R0082039",
+   "episode_id": "stream:agent:response",
+   "turn_index": 96
+  },
+  {
+   "id": "R0061635",
+   "episode_id": "dag:R0048355",
+   "turn_index": 0
+  },
+  {
+   "id": "R0058340",
+   "episode_id": "dag:R0027931",
+   "turn_index": 0
+  },
+  {
+   "id": "R0054586",
+   "episode_id": "dag:R0007057",
+   "turn_index": 0
+  },
+  {
+   "id": "R0057379",
+   "episode_id": "dag:R0023392",
+   "turn_index": 0
+  },
+  {
+   "id": "R0082933",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 192
+  },
+  {
+   "id": "R0058541",
+   "episode_id": "stream:agent:response",
+   "turn_index": 46
+  },
+  {
+   "id": "R0059577",
+   "episode_id": "stream:agent:response",
+   "turn_index": 51
+  },
+  {
+   "id": "R0060494",
+   "episode_id": "dag:R0040019",
+   "turn_index": 0
+  },
+  {
+   "id": "R0155000",
+   "episode_id": "dag:R0117755",
+   "turn_index": 0
+  },
+  {
+   "id": "R0148840",
+   "episode_id": "dag:R0079129",
+   "turn_index": 0
+  },
+  {
+   "id": "R0156762",
+   "episode_id": "dag:R0118395",
+   "turn_index": 0
+  },
+  {
+   "id": "R0154748",
+   "episode_id": "dag:R0117661",
+   "turn_index": 0
+  },
+  {
+   "id": "R0082775",
+   "episode_id": "stream:agent:response",
+   "turn_index": 103
+  },
+  {
+   "id": "R0081906",
+   "episode_id": "stream:agent:response",
+   "turn_index": 87
+  },
+  {
+   "id": "R0058449",
+   "episode_id": "dag:R0028622",
+   "turn_index": 0
+  },
+  {
+   "id": "R0060797",
+   "episode_id": "dag:R0041601",
+   "turn_index": 0
+  },
+  {
+   "id": "R0151119",
+   "episode_id": "dag:R0116515",
+   "turn_index": 0
+  },
+  {
+   "id": "R0081724",
+   "episode_id": "stream:agent:response",
+   "turn_index": 79
+  },
+  {
+   "id": "R0155645",
+   "episode_id": "dag:R0117995",
+   "turn_index": 0
+  },
+  {
+   "id": "R0153064",
+   "episode_id": "dag:R0117126",
+   "turn_index": 0
+  },
+  {
+   "id": "R0159133",
+   "episode_id": "dag:R0125052",
+   "turn_index": 0
+  },
+  {
+   "id": "R0057327",
+   "episode_id": "stream:agent:response",
+   "turn_index": 34
+  },
+  {
+   "id": "R0056801",
+   "episode_id": "dag:R0020353",
+   "turn_index": 0
+  },
+  {
+   "id": "R0151170",
+   "episode_id": "dag:R0116531",
+   "turn_index": 0
+  },
+  {
+   "id": "R0148007",
+   "episode_id": "dag:R0078984",
+   "turn_index": 0
+  },
+  {
+   "id": "R0152060",
+   "episode_id": "dag:R0079312",
+   "turn_index": 0
+  },
+  {
+   "id": "R0154161",
+   "episode_id": "dag:R0117489",
+   "turn_index": 0
+  },
+  {
+   "id": "R0083595",
+   "episode_id": "stream:agent:response",
+   "turn_index": 118
+  },
+  {
+   "id": "R0157547",
+   "episode_id": "dag:R0118680",
+   "turn_index": 0
+  },
+  {
+   "id": "R0150088",
+   "episode_id": "dag:R0079186",
+   "turn_index": 0
+  },
+  {
+   "id": "R0062326",
+   "episode_id": "dag:R0051986",
+   "turn_index": 0
+  },
+  {
+   "id": "R0081557",
+   "episode_id": "stream:agent:response",
+   "turn_index": 74
+  },
+  {
+   "id": "R0055576",
+   "episode_id": "dag:R0012888",
+   "turn_index": 0
+  },
+  {
+   "id": "R0150236",
+   "episode_id": "dag:R0113824",
+   "turn_index": 0
+  },
+  {
+   "id": "R0157005",
+   "episode_id": "dag:R0118485",
+   "turn_index": 0
+  },
+  {
+   "id": "R0061529",
+   "episode_id": "stream:agent:response",
+   "turn_index": 63
+  },
+  {
+   "id": "R0060231",
+   "episode_id": "dag:R0038193",
+   "turn_index": 0
+  },
+  {
+   "id": "R0152847",
+   "episode_id": "dag:R0117066",
+   "turn_index": 0
+  },
+  {
+   "id": "R0159047",
+   "episode_id": "dag:R0124191",
+   "turn_index": 0
+  },
+  {
+   "id": "R0156826",
+   "episode_id": "dag:R0118421",
+   "turn_index": 0
+  },
+  {
+   "id": "R0155949",
+   "episode_id": "dag:R0118111",
+   "turn_index": 0
+  },
+  {
+   "id": "R0153095",
+   "episode_id": "dag:R0117134",
+   "turn_index": 0
+  },
+  {
+   "id": "R0149586",
+   "episode_id": "dag:R0079135",
+   "turn_index": 0
+  },
+  {
+   "id": "R0150969",
+   "episode_id": "dag:R0079235",
+   "turn_index": 0
+  },
+  {
+   "id": "R0057550",
+   "episode_id": "dag:R0024455",
+   "turn_index": 1
+  },
+  {
+   "id": "R0151499",
+   "episode_id": "dag:R0116639",
+   "turn_index": 0
+  },
+  {
+   "id": "R0058665",
+   "episode_id": "dag:R0029667",
+   "turn_index": 0
+  },
+  {
+   "id": "R0147891",
+   "episode_id": "dag:R0078963",
+   "turn_index": 0
+  },
+  {
+   "id": "R0149998",
+   "episode_id": "dag:R0113780",
+   "turn_index": 0
+  },
+  {
+   "id": "R0148726",
+   "episode_id": "dag:R0079105",
+   "turn_index": 0
+  },
+  {
+   "id": "R0082435",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 184
+  },
+  {
+   "id": "R0057234",
+   "episode_id": "stream:agent:response",
+   "turn_index": 25
+  },
+  {
+   "id": "R0152743",
+   "episode_id": "dag:R0117037",
+   "turn_index": 0
+  },
+  {
+   "id": "R0149072",
+   "episode_id": "dag:R0113628",
+   "turn_index": 0
+  },
+  {
+   "id": "R0083221",
+   "episode_id": "stream:agent:response",
+   "turn_index": 111
+  },
+  {
+   "id": "R0152066",
+   "episode_id": "dag:R0116824",
+   "turn_index": 0
+  },
+  {
+   "id": "R0154781",
+   "episode_id": "dag:R0117682",
+   "turn_index": 0
+  },
+  {
+   "id": "R0056333",
+   "episode_id": "dag:R0018206",
+   "turn_index": 0
+  },
+  {
+   "id": "R0153635",
+   "episode_id": "dag:R0117295",
+   "turn_index": 0
+  },
+  {
+   "id": "R0154120",
+   "episode_id": "dag:R0117477",
+   "turn_index": 0
+  },
+  {
+   "id": "R0082236",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 183
+  },
+  {
+   "id": "R0055245",
+   "episode_id": "stream:agent:response",
+   "turn_index": 2
+  },
+  {
+   "id": "R0154324",
+   "episode_id": "dag:R0117534",
+   "turn_index": 0
+  },
+  {
+   "id": "R0153048",
+   "episode_id": "dag:R0117123",
+   "turn_index": 0
+  },
+  {
+   "id": "R0056991",
+   "episode_id": "stream:agent:response",
+   "turn_index": 18
+  },
+  {
+   "id": "R0060486",
+   "episode_id": "dag:R0039970",
+   "turn_index": 0
+  },
+  {
+   "id": "R0148338",
+   "episode_id": "dag:R0113574",
+   "turn_index": 0
+  },
+  {
+   "id": "R0158260",
+   "episode_id": "dag:R0118922",
+   "turn_index": 0
+  },
+  {
+   "id": "R0158830",
+   "episode_id": "dag:R0122161",
+   "turn_index": 0
+  },
+  {
+   "id": "R0157980",
+   "episode_id": "dag:R0118833",
+   "turn_index": 0
+  },
+  {
+   "id": "R0053463",
+   "episode_id": "dag:R0000324",
+   "turn_index": 0
+  },
+  {
+   "id": "R0058645",
+   "episode_id": "dag:R0029625",
+   "turn_index": 0
+  },
+  {
+   "id": "R0083622",
+   "episode_id": "stream:agent:response",
+   "turn_index": 120
+  },
+  {
+   "id": "R0054412",
+   "episode_id": "dag:R0006926",
+   "turn_index": 0
+  },
+  {
+   "id": "R0060253",
+   "episode_id": "dag:R0038368",
+   "turn_index": 0
+  },
+  {
+   "id": "R0082558",
+   "episode_id": "stream:[CREDENTIAL 1722]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0062056",
+   "episode_id": "stream:[CREDENTIAL 2716]",
+   "turn_index": 0
+  },
+  {
+   "id": "R0082263",
+   "episode_id": "stream:[CREDENTIAL 1]",
+   "turn_index": 38
+  },
+  {
+   "id": "R0059242",
+   "episode_id": "dag:R0033446",
+   "turn_index": 0
+  },
+  {
+   "id": "R0058896",
+   "episode_id": "dag:R0030994",
+   "turn_index": 0
+  },
+  {
+   "id": "R0059297",
+   "episode_id": "dag:R0033801",
+   "turn_index": 0
+  },
+  {
+   "id": "R0058074",
+   "episode_id": "stream:agent:response",
+   "turn_index": 40
+  },
+  {
+   "id": "R0053924",
+   "episode_id": "dag:R0003417",
+   "turn_index": 0
+  },
+  {
+   "id": "R0056098",
+   "episode_id": "dag:R0017251",
+   "turn_index": 0
+  },
+  {
+   "id": "R0154599",
+   "episode_id": "dag:R0117623",
+   "turn_index": 0
+  },
+  {
+   "id": "R0081979",
+   "episode_id": "stream:agent:response",
+   "turn_index": 92
+  },
+  {
+   "id": "R0155369",
+   "episode_id": "dag:R0079510",
+   "turn_index": 0
+  },
+  {
+   "id": "R0061621",
+   "episode_id": "dag:R0048239",
+   "turn_index": 0
+  },
+  {
+   "id": "R0158969",
+   "episode_id": "dag:R0123508",
+   "turn_index": 0
+  },
+  {
+   "id": "R0082403",
+   "episode_id": "stream:agent:response",
+   "turn_index": 100
+  },
+  {
+   "id": "R0082233",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 182
+  },
+  {
+   "id": "R0151845",
+   "episode_id": "dag:R0116746",
+   "turn_index": 0
+  },
+  {
+   "id": "R0151551",
+   "episode_id": "dag:R0116658",
+   "turn_index": 0
+  },
+  {
+   "id": "R0149392",
+   "episode_id": "dag:R0113692",
+   "turn_index": 0
+  },
+  {
+   "id": "R0156484",
+   "episode_id": "dag:R0118292",
+   "turn_index": 1
+  },
+  {
+   "id": "R0060285",
+   "episode_id": "dag:R0038559",
+   "turn_index": 0
+  },
+  {
+   "id": "R0055034",
+   "episode_id": "dag:R0008077",
+   "turn_index": 0
+  },
+  {
+   "id": "R0158765",
+   "episode_id": "dag:R0080310",
+   "turn_index": 3
+  },
+  {
+   "id": "R0082170",
+   "episode_id": "stream:[REDACTED:runtime_identifier]",
+   "turn_index": 181
+  },
+  {
+   "id": "R0057675",
+   "episode_id": "dag:R0024455",
+   "turn_index": 8
+  },
+  {
+   "id": "R0062071",
+   "episode_id": "dag:R0050180",
+   "turn_index": 0
+  }
+ ]
+}

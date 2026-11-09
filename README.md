@@ -9,10 +9,10 @@ We map trace records from two AI-agent swarm incidents onto Stafford Beer's **Vi
 - **Two incidents, two pictures.**
   - Wiki agent text (6,051 records): of the records with enough evidence, **58% are S2 coordination**, and on a page S2 is followed by S2 **87%** of the time.
   - Swarm Traces, the July 2026 Hugging Face attack payloads (6,000 stratified records): **85.5% S1** and **14.2% S4**, with almost no coordination.
-  - The corpora were labelled with different prompts, so the contrast is suggestive.
+  - Two additional judges reproduced the headline contrast on 1,000 records per corpus. Under one shared prompt, wiki S2 fell to 38.5%, below S1 (46.1%); the contrast is prompt-sensitive. See `calibration/second_judge/`.
 - **Abstention matters.** 58% of Swarm Traces records and 8% of wiki records are too thin to label. Forced-choice confidence did not identify them.
 - **S5 cannot be found by labelling records.** Every record-level S5 label was a false positive. S5 is attested at the system level: METR's investigation documents collective identity, self-sacrifice, succession and binding rules (see `calibration/S5_EVIDENCE.md`).
-- **Where S5 sits differs between the incidents.** In the wiki corpus, identity conventions are widespread but are not transmitted from page to page (pre-registered test, `calibration/convergence/`). Agents arrive already carrying them. That points to an S5 outside the observed channel. Where that function sits decides where to intervene.
+- **The wiki test does not locate S5.** In the wiki corpus, a pre-registered test found no evidence of above-chance page-exposure lift for identity conventions (`calibration/convergence/`). Shared priors or unobserved channels could explain this, but limited power, selection and incomplete histories remain alternatives. The test does not establish where S5 sits.
 
 The limits of each result are stated next to it: see each folder's README and `figures/README.md`.
 
@@ -24,6 +24,7 @@ The limits of each result are stated next to it: see each folder's README and `f
 | `batch_classify_vsm.py` | Resumable labelling runner: frozen cohorts, per-record durable results, retries, wiki and Swarm Traces sources, abstention mode |
 | `verify_batch_output.py`, `tests/` | Checks one schema-valid row per cohort ID; offline tests |
 | `calibration/` | Prompts, the four-case dispatch check, labelling runs (results and READMEs), the convergence test (pre-registration first), the S5 evidence ladder |
+| `calibration/second_judge/` | Frozen sample IDs, preregistration, prompts, analysis scripts and aggregate judge/prompt comparison results |
 | `figures/` | The four paper figures (PNG, PDF, CSV) and the script that makes them |
 | `dispatch_links.jsonl`, `HANDOFF.md` | Two manually verified dispatch links, and the graph handoff notes |
 | `video/` | The 3-minute video: storyline, spec, data module, and the narration-cut tooling (no recordings) |

@@ -1,0 +1,76 @@
+{
+  "source_repository": "closestfriend/swarm-vsm (private research repository)",
+  "source_commit": "3553399b1ae9581f12e6b4e2e02c11a27ff59b4c",
+  "preregistration_commit": "cac6ced896586d44a1abe094ebfb5ea3bfdb6c2c",
+  "files": {
+    "PREREG.md": {
+      "source_sha256": "fd2416430eff3a88a45b0c674142e4ed4e1bbc757bfbec69a3e9c62aaac19ced",
+      "release_sha256": "fd2416430eff3a88a45b0c674142e4ed4e1bbc757bfbec69a3e9c62aaac19ced",
+      "changes": []
+    },
+    "shared_prompt.md": {
+      "source_sha256": "23cc3c2276ae266b351ffeba50ab858e066bdd4a9ec66679e58ccb2868d92f84",
+      "release_sha256": "23cc3c2276ae266b351ffeba50ab858e066bdd4a9ec66679e58ccb2868d92f84",
+      "changes": []
+    },
+    "results.json": {
+      "source_sha256": "936f5bf5f8c315ae142586f5390dca503eac4f62241b210d296921dbf6e05f93",
+      "release_sha256": "936f5bf5f8c315ae142586f5390dca503eac4f62241b210d296921dbf6e05f93",
+      "changes": []
+    },
+    "analyze.py": {
+      "source_sha256": "394661f990648fb6a0937d3fa53352961202e32bcf9dbf0f88bf2ef77c35cab0",
+      "release_sha256": "394661f990648fb6a0937d3fa53352961202e32bcf9dbf0f88bf2ef77c35cab0",
+      "changes": []
+    },
+    "make_samples.py": {
+      "source_sha256": "07680945c4f29af9256ea81b9aa1a950bb61005f50f88a6788062f76387dc028",
+      "release_sha256": "07680945c4f29af9256ea81b9aa1a950bb61005f50f88a6788062f76387dc028",
+      "changes": []
+    },
+    "run_arms.sh": {
+      "source_sha256": "71d633e219fdbcb7407daaf75b9b7623b401a45b58f6b374125556d91786c62f",
+      "release_sha256": "8214602bf5419c3c76197f6229255541a54d9b2a82e0430b799a01cdd7afac6a",
+      "changes": [
+        "portable explicit input paths, set validation and worker exit propagation"
+      ]
+    },
+    "run_aprime.sh": {
+      "source_sha256": "b6f092d5cc427bcca6265e0dc309269995dcba1c455373c68a6ad269dabc620c",
+      "release_sha256": "8b90fbd689c5359a84fdc35229d01eb305b8b95ddd1854da7857b8fa88bcf805",
+      "changes": [
+        "portable explicit input paths, set validation and worker exit propagation"
+      ]
+    },
+    "cohorts/wiki_main.json": {
+      "source_sha256": "b9af0a174417215c3d1cf4163f5693e05be940579644944d418434b3a2589d66",
+      "release_sha256": "aad426767d337af791581b149fdd39dd6b320e9dbfb7b3d2f71a710e18704ced",
+      "changes": [
+        "config.input reduced to basename",
+        "config.cohort_from reduced to basename"
+      ]
+    },
+    "cohorts/wiki_canary.json": {
+      "source_sha256": "37bf15409b70914557d99468cd7e5c6657ed774dc7141302da9d6508c92b5792",
+      "release_sha256": "ff0fec19bcb6e164cdf0513054f17327ad2ee4e13539ff73d0f5cfd2232e36fe",
+      "changes": [
+        "config.input reduced to basename",
+        "config.cohort_from reduced to basename"
+      ]
+    },
+    "cohorts/swarm_main.json": {
+      "source_sha256": "c21e8982969285f9b0ae9c72c4c3968556ce07cd36b20133fb47e4cebf1b8627",
+      "release_sha256": "c95db1ec637b5b22399c7f9a7313d627680aa1f47c79fcb4109206c84d96c038",
+      "changes": [
+        "config.input reduced to basename"
+      ]
+    },
+    "cohorts/swarm_canary.json": {
+      "source_sha256": "eccaea4c79a9803e370fcb4304b0be716acbd1ab59a05bc67b3f262a16ac825f",
+      "release_sha256": "272dd07428b2eb331b8b99041b3e207421b907026982f0634589c40b77f501c0",
+      "changes": [
+        "config.input reduced to basename"
+      ]
+    }
+  }
+}
