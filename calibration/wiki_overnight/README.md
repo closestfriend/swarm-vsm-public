@@ -102,3 +102,7 @@ scp -r wer:swarm-vsm-canary/pilot_wiki_overnight ./ && .venv/bin/python -B verif
 These are labels from one forced-choice run, not measured accuracy. Before the paper relies on the distribution, spot-check a sample stratified by label and confidence.
 
 The outputs are `final.jsonl` (one `TraceAnnotation` per cohort ID, in cohort order) and `summary.json` (state distribution and per-episode Markov transitions), both in the pilot directory. `parent_id` is always null for this corpus. Within-page transitions come from `episode_id` and `turn_index`.
+
+## Correction (2026-11-13): attribution of the timeout window
+
+The note above attributes the 274 clustered timeouts to "an API-side slowdown." That was an inference, not an observation: the home internet connection in use during this run was later found degraded (outside wiring repaired and router replaced by a technician after this run). A client-side network fault in the same window explains the clustering equally well, and cannot be ruled out from the logs we kept. Both causes produce the same signature; the run's own mitigation (resumable wrapper, attempt 2 with 0 failures) is correct under either attribution. No change to the results or the cap analysis.
